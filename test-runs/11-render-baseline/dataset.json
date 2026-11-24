@@ -1,0 +1,563 @@
+[
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-render",
+  "checked_at": "2026-10-18T02:27:05.203Z",
+  "url": "https://basecamp.com/pricing",
+  "page_type": "pricing",
+  "label": null,
+  "domain": "basecamp.com",
+  "type": "baseline",
+  "final_url": "https://basecamp.com/pricing",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Pricing page: baseline of 4 plan(s): Freelancer $25/month; Studio $59/month; Pro $99/month; Unlimited $299/month (billed annually). Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Basecamp \u2014 Pricing",
+   "sections": 20,
+   "plans": [
+    {
+     "name": "Freelancer",
+     "key": "freelancer",
+     "prices": [
+      {
+       "amount": 25,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$25"
+      }
+     ]
+    },
+    {
+     "name": "Studio",
+     "key": "studio",
+     "prices": [
+      {
+       "amount": 59,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$59"
+      }
+     ]
+    },
+    {
+     "name": "Pro",
+     "key": "pro",
+     "prices": [
+      {
+       "amount": 99,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$99"
+      }
+     ]
+    },
+    {
+     "name": "Unlimited",
+     "key": "unlimited",
+     "prices": [
+      {
+       "amount": 299,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": null,
+       "raw": "$299"
+      }
+     ]
+    }
+   ],
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-render",
+  "checked_at": "2026-10-18T02:27:05.203Z",
+  "url": "https://www.typeform.com/pricing/",
+  "page_type": "pricing",
+  "label": null,
+  "domain": "www.typeform.com",
+  "type": "baseline",
+  "final_url": "https://www.typeform.com/pricing",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Pricing page: baseline of 13 plan(s): Talent $119/month / $169/month; Basic $0/month / $28/month; Plus $0/month / $56/month; Business $0/month / $91/month; Growth Flow $0/month / $266/month; Get started with AI forms $119/month (billed annually); Contacts & Automations $25/month (billed annually) / $75/month (billed annually); Typeform Subscription Plans $28. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Plans & Pricing | Typeform",
+   "sections": 30,
+   "plans": [
+    {
+     "name": "Talent",
+     "key": "talent",
+     "prices": [
+      {
+       "amount": 119,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "119 USD"
+      },
+      {
+       "amount": 169,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "169 USD"
+      },
+      {
+       "amount": 600,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "600 USD"
+      },
+      {
+       "amount": 2028,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "2,028 USD"
+      }
+     ]
+    },
+    {
+     "name": "Basic",
+     "key": "basic",
+     "prices": [
+      {
+       "amount": 0,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "0 USD"
+      },
+      {
+       "amount": 28,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "28 USD"
+      },
+      {
+       "amount": 39,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "39 USD"
+      },
+      {
+       "amount": 266,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "266 USD"
+      },
+      {
+       "amount": 349,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "349 USD"
+      },
+      {
+       "amount": 468,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "468 USD"
+      },
+      {
+       "amount": 132,
+       "currency": "USD",
+       "period": "year",
+       "billing": "annual",
+       "unit": null,
+       "raw": "132 USD"
+      }
+     ]
+    },
+    {
+     "name": "Plus",
+     "key": "plus",
+     "prices": [
+      {
+       "amount": 0,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "0 USD"
+      },
+      {
+       "amount": 56,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "56 USD"
+      },
+      {
+       "amount": 79,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "79 USD"
+      },
+      {
+       "amount": 266,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "266 USD"
+      },
+      {
+       "amount": 349,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "349 USD"
+      },
+      {
+       "amount": 948,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "948 USD"
+      },
+      {
+       "amount": 276,
+       "currency": "USD",
+       "period": "year",
+       "billing": "annual",
+       "unit": null,
+       "raw": "276 USD"
+      }
+     ]
+    },
+    {
+     "name": "Business",
+     "key": "business",
+     "prices": [
+      {
+       "amount": 0,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "0 USD"
+      },
+      {
+       "amount": 91,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "91 USD"
+      },
+      {
+       "amount": 129,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "129 USD"
+      },
+      {
+       "amount": 266,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "266 USD"
+      },
+      {
+       "amount": 349,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "349 USD"
+      },
+      {
+       "amount": 1548,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "1,548 USD"
+      },
+      {
+       "amount": 456,
+       "currency": "USD",
+       "period": "year",
+       "billing": "annual",
+       "unit": null,
+       "raw": "456 USD"
+      }
+     ]
+    },
+    {
+     "name": "Growth Flow",
+     "key": "growth flow",
+     "prices": [
+      {
+       "amount": 0,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "0 USD"
+      },
+      {
+       "amount": 266,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "266 USD"
+      },
+      {
+       "amount": 379,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "379 USD"
+      }
+     ]
+    },
+    {
+     "name": "Get started with AI forms",
+     "key": "get started with ai forms",
+     "prices": [
+      {
+       "amount": 119,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": null,
+       "raw": "119 USD"
+      }
+     ]
+    },
+    {
+     "name": "Contacts & Automations",
+     "key": "contacts automations",
+     "prices": [
+      {
+       "amount": 25,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": null,
+       "raw": "25 USD"
+      },
+      {
+       "amount": 75,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": null,
+       "raw": "75 USD"
+      }
+     ]
+    },
+    {
+     "name": "Typeform Subscription Plans",
+     "key": "typeform subscription plans",
+     "prices": [
+      {
+       "amount": 28,
+       "currency": "USD",
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "raw": "USD 28"
+      }
+     ]
+    },
+    {
+     "name": "Basic Plan",
+     "key": "basic plan",
+     "prices": [
+      {
+       "amount": 28,
+       "currency": "USD",
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "raw": "USD 28"
+      }
+     ]
+    },
+    {
+     "name": "Plus Plan",
+     "key": "plus plan",
+     "prices": [
+      {
+       "amount": 56,
+       "currency": "USD",
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "raw": "USD 56"
+      }
+     ]
+    },
+    {
+     "name": "Business Plan",
+     "key": "business plan",
+     "prices": [
+      {
+       "amount": 91,
+       "currency": "USD",
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "raw": "USD 91"
+      }
+     ]
+    },
+    {
+     "name": "Talent Plan",
+     "key": "talent plan",
+     "prices": [
+      {
+       "amount": 119,
+       "currency": "USD",
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "raw": "USD 119"
+      }
+     ]
+    },
+    {
+     "name": "Growth Pro",
+     "key": "growth pro",
+     "prices": [
+      {
+       "amount": 266,
+       "currency": "USD",
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "raw": "USD 266"
+      }
+     ]
+    }
+   ],
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-render",
+  "checked_at": "2026-10-18T02:27:05.203Z",
+  "url": "https://www.atlassian.com/software/jira/pricing",
+  "page_type": "pricing",
+  "label": null,
+  "domain": "www.atlassian.com",
+  "type": "baseline",
+  "final_url": "https://www.atlassian.com/software/jira/pricing",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Pricing page: baseline of 3 plan(s): Free $0; Standard $8.48/month per user; Premium $15.56/month per user. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Jira pricing: Free, Standard, Premium, Enterprise | Atlassian",
+   "sections": 24,
+   "plans": [
+    {
+     "name": "Free",
+     "key": "free",
+     "prices": [
+      {
+       "amount": 0,
+       "currency": "USD",
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "raw": "$0"
+      }
+     ]
+    },
+    {
+     "name": "Standard",
+     "key": "standard",
+     "prices": [
+      {
+       "amount": 8.48,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$8.48"
+      }
+     ]
+    },
+    {
+     "name": "Premium",
+     "key": "premium",
+     "prices": [
+      {
+       "amount": 15.56,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$15.56"
+      }
+     ]
+    }
+   ],
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": true,
+   "notes": [
+    "rendered with headless browser (JavaScript page)"
+   ]
+  },
+  "previous_checked_at": null
+ }
+]

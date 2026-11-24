@@ -1,0 +1,31 @@
+2026-10-18T02:26:01.941Z ACTOR: Pulling container image of build exOhSpgjwvH40toJH from registry.
+2026-10-18T02:26:19.928Z ACTOR: Creating container.
+2026-10-18T02:26:20.018Z ACTOR: Starting container.
+2026-10-18T02:26:20.026Z ACTOR: Running under "LIMITED_PERMISSIONS".
+2026-10-18T02:26:20.097Z Running on architecture: x86_64
+2026-10-18T02:26:20.099Z Will run command: xvfb-run -a -s "-ac -screen 0 1920x1080x24+32 -nolisten tcp" sh -c exec node --max-old-space-size=$(( ${ACTOR_MEMORY_MBYTES:-256} * 6 / 10 )) dist/main.js
+2026-10-18T02:26:21.277Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}
+2026-10-18T02:26:22.138Z INFO  pricing https://cal.com/pricing: no meaningful change
+2026-10-18T02:26:22.141Z INFO  pricing https://posthog.com/pricing: no meaningful change
+2026-10-18T02:26:22.558Z INFO  pricing https://www.netlify.com/pricing/: no meaningful change
+2026-10-18T02:26:23.543Z INFO  terms https://cal.com/terms: no meaningful change
+2026-10-18T02:26:23.584Z INFO  terms https://posthog.com/terms: no meaningful change
+2026-10-18T02:26:24.071Z INFO  privacy https://www.netlify.com/privacy/: no meaningful change
+2026-10-18T02:26:24.174Z INFO  pricing https://buffer.com/pricing?cta=bufferSite-globalNav-pricing-pricing-1: 1 change(s) shown
+2026-10-18T02:26:25.077Z INFO  privacy https://posthog.com/privacy: no meaningful change
+2026-10-18T02:26:25.093Z INFO  terms https://buffer.com/legal: no meaningful change
+2026-10-18T02:26:25.230Z INFO  privacy https://cal.com/privacy: no meaningful change
+2026-10-18T02:26:25.637Z INFO  careers https://www.netlify.com/careers/: no meaningful change
+2026-10-18T02:26:26.542Z INFO  careers https://cal.com/jobs: no meaningful change
+2026-10-18T02:26:26.580Z INFO  careers https://posthog.com/careers: no meaningful change
+2026-10-18T02:26:26.692Z INFO  careers https://buffer.com/journey: no meaningful change
+2026-10-18T02:26:27.155Z INFO  changelog https://www.netlify.com/changelog/: no meaningful change
+2026-10-18T02:26:28.082Z INFO  changelog https://buffer.com/changelog: no meaningful change
+2026-10-18T02:26:28.098Z INFO  changelog https://cal.com/subscribe: no meaningful change
+2026-10-18T02:26:28.103Z INFO  changelog https://posthog.com/changelog: no meaningful change
+2026-10-18T02:26:33.485Z INFO  product https://netlify.com/: no meaningful change
+2026-10-18T02:26:40.421Z INFO  product https://posthog.com/: no meaningful change
+2026-10-18T02:26:47.221Z INFO  product https://cal.com/: no meaningful change
+2026-10-18T02:26:49.823Z INFO  product https://buffer.com/: no meaningful change
+2026-10-18T02:26:50.389Z INFO  22 page(s) checked: 0 baseline(s), 1 change(s) (0 high, 1 medium, 0 low), 2 skipped, 0 error(s).
+2026-10-18T02:26:50.391Z INFO  [Status message]: 22 page(s) checked: 0 baseline(s), 1 change(s) (0 high, 1 medium, 0 low), 2 skipped, 0 error(s).

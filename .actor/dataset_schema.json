@@ -1,0 +1,233 @@
+{
+    "actorSpecification": 1,
+    "fields": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "schema_version": {
+                "type": "string",
+                "title": "Schema version"
+            },
+            "type": {
+                "type": "string",
+                "title": "Row type",
+                "description": "change, baseline, digest, skipped or error. digest is one row per competitor domain and includes since, changes_count, changed and is_baseline."
+            },
+            "watchlist": {
+                "type": "string",
+                "title": "Watchlist"
+            },
+            "checked_at": {
+                "type": "string",
+                "title": "Checked at"
+            },
+            "url": {
+                "type": ["string", "null"],
+                "title": "URL"
+            },
+            "final_url": {
+                "type": ["string", "null"],
+                "title": "Final URL",
+                "description": "After redirects."
+            },
+            "page_type": {
+                "type": ["string", "null"],
+                "title": "Page type",
+                "description": "pricing, product, terms, privacy, careers, changelog, blog or generic."
+            },
+            "label": {
+                "type": ["string", "null"],
+                "title": "Label"
+            },
+            "domain": {
+                "type": ["string", "null"],
+                "title": "Domain"
+            },
+            "severity": {
+                "type": ["string", "null"],
+                "title": "Severity",
+                "description": "high, medium or low (null on baseline rows)."
+            },
+            "change_kind": {
+                "type": ["string", "null"],
+                "title": "Change kind",
+                "description": "price_changed, plan_added, plan_removed, plan_prices_changed, pricing_restructured, pricing_unparsed, pricing_text_changed, legal_text_changed, pages_added, pages_removed, jobs_changed, careers_keywords_changed, new_entries, keyword_changed, content_changed, baseline or digest."
+            },
+            "summary": {
+                "type": ["string", "null"],
+                "title": "Summary",
+                "description": "Plain-English description of the change."
+            },
+            "details": {
+                "type": ["object", "null"],
+                "title": "Details",
+                "description": "Structured before/after data (prices, sections with added/removed sentences, URLs, careers roles). Digest jobs are status skipped with code JOBS_SIGNAL_RETIRED and do not name a child Actor."
+            },
+            "previous_checked_at": {
+                "type": ["string", "null"],
+                "title": "Previous snapshot from"
+            },
+            "code": {
+                "type": ["string", "null"],
+                "title": "Code",
+                "description": "Skip or error code, e.g. ROBOTS_DISALLOWED, HOST_BLOCKED, PAGE_NOT_FOUND."
+            },
+            "message": {
+                "type": ["string", "null"],
+                "title": "Message"
+            },
+            "retryable": {
+                "type": ["boolean", "null"],
+                "title": "Retryable"
+            },
+            "context": {
+                "type": ["object", "null"],
+                "title": "Context"
+            },
+            "css_selector": {
+                "type": ["string", "null"],
+                "title": "CSS selector",
+                "description": "DOM region this page row was compared against, when one was set."
+            },
+            "since": {
+                "type": ["string", "null"],
+                "title": "Digest since",
+                "description": "Digest rows: ISO time of the previous successful digest for this watchlist, read from your Apify key-value store. Null on the first digest (is_baseline)."
+            },
+            "changes_count": {
+                "type": ["integer", "null"],
+                "title": "Changes count",
+                "description": "Digest rows: page changes plus technologies added or removed. Baselines and errors add zero. Jobs are not included."
+            },
+            "changed": {
+                "type": ["boolean", "null"],
+                "title": "Changed",
+                "description": "Digest rows: true when changes_count is greater than zero. Read is_baseline before treating false as a quiet period."
+            },
+            "is_baseline": {
+                "type": ["boolean", "null"],
+                "title": "Digest baseline",
+                "description": "Digest rows: true when this watchlist has no previous successful digest. A baseline is not a quiet result, even when changed is false."
+            }
+        },
+        "required": ["schema_version", "type", "watchlist", "checked_at"]
+    },
+    "views": {
+        "changes": {
+            "title": "Changes",
+            "transformation": {
+                "fields": [
+                    "type",
+                    "severity",
+                    "page_type",
+                    "label",
+                    "url",
+                    "change_kind",
+                    "summary",
+                    "previous_checked_at",
+                    "checked_at",
+                    "code",
+                    "message"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "type": {
+                        "label": "Row type"
+                    },
+                    "severity": {
+                        "label": "Severity"
+                    },
+                    "page_type": {
+                        "label": "Page type"
+                    },
+                    "label": {
+                        "label": "Label"
+                    },
+                    "url": {
+                        "label": "URL",
+                        "format": "link"
+                    },
+                    "change_kind": {
+                        "label": "Change kind"
+                    },
+                    "summary": {
+                        "label": "Summary"
+                    },
+                    "previous_checked_at": {
+                        "label": "Previous snapshot from"
+                    },
+                    "checked_at": {
+                        "label": "Checked at"
+                    },
+                    "code": {
+                        "label": "Code"
+                    },
+                    "message": {
+                        "label": "Message"
+                    }
+                }
+            }
+        },
+        "digests": {
+            "title": "Weekly digests",
+            "transformation": {
+                "fields": [
+                    "type",
+                    "domain",
+                    "is_baseline",
+                    "changed",
+                    "changes_count",
+                    "since",
+                    "severity",
+                    "summary",
+                    "checked_at"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "type": { "label": "Row type" },
+                    "domain": { "label": "Domain" },
+                    "is_baseline": { "label": "Baseline" },
+                    "changed": { "label": "Changed" },
+                    "changes_count": { "label": "Changes" },
+                    "since": { "label": "Since" },
+                    "severity": { "label": "Severity" },
+                    "summary": { "label": "Summary" },
+                    "checked_at": { "label": "Checked at" }
+                }
+            }
+        },
+        "details": {
+            "title": "Changes with details",
+            "transformation": {
+                "fields": ["severity", "label", "url", "change_kind", "summary", "details"]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "severity": {
+                        "label": "Severity"
+                    },
+                    "label": {
+                        "label": "Label"
+                    },
+                    "url": {
+                        "label": "URL"
+                    },
+                    "change_kind": {
+                        "label": "Change kind"
+                    },
+                    "summary": {
+                        "label": "Summary"
+                    },
+                    "details": {
+                        "label": "Details"
+                    }
+                }
+            }
+        }
+    }
+}

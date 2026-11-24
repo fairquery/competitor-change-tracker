@@ -1,0 +1,63 @@
+{
+ "basecamp_pricing": {
+  "before": [
+   [
+    "Freelancer",
+    [
+     25
+    ]
+   ],
+   [
+    "Studio",
+    [
+     59
+    ]
+   ],
+   [
+    "Pro",
+    [
+     99
+    ]
+   ],
+   [
+    "Unlimited",
+    [
+     299
+    ]
+   ]
+  ],
+  "edit": "Pro 99->79 in stored baseline, Studio removed, fake Starter $15 added"
+ },
+ "linear_pricing": "Business 16->14 in stored baseline",
+ "linear_terms": {
+  "reworded_section": "Terms of Service",
+  "section_missing_from_baseline": "Linear\u2019s Ownership"
+ },
+ "ashby_linear": {
+  "missing_from_baseline": [
+   "Senior / Staff Product Engineer",
+   "Product Engineer",
+   "Senior / Staff Product Engineer"
+  ],
+  "fake_closed": "Senior Simulated Engineer"
+ },
+ "linear_changelog": {
+  "missing_from_baseline": [
+   "Now",
+   "Stacked pull requests"
+  ]
+ },
+ "tailscale_sitemap": {
+  "missing_from_baseline": [
+   "https://tailscale.com/ai-startup-program",
+   "https://tailscale.com/blog",
+   "https://tailscale.com/blog/10000-times-faster",
+   "https://tailscale.com/blog/1password-extended-access-kolide",
+   "https://tailscale.com/blog/2019-09-10-zero-trust"
+  ],
+  "fake": [
+   "/features/simulated-a",
+   "/features/simulated-b"
+  ]
+ }
+}

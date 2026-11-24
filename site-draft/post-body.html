@@ -1,0 +1,47 @@
+<div class="answer"><p><strong>Short answer:</strong> fetch each competitor page on a schedule, strip everything that changes on every visit (scripts, nav, cookie banners, dates, tokens), and compare what is left <em>by page type</em>: plans and prices on pricing pages, sections on terms and privacy pages, job ids on Greenhouse, Lever or Ashby boards, URLs in the sitemap. A 30-line Python script below tells you <em>whether</em> a page changed. To know <em>what</em> changed (which plan's price moved, which legal section was rewritten, which roles opened) with alerts to Slack, the <a href="https://apify.com/fairquery/competitor-change-tracker">Fairquery Competitor Change Tracker</a> runs on an Apify schedule for a proposed <strong>$0.00049 per page checked + $0.0049 per change reported</strong>.</p></div>
+
+<h2>Why screenshot and raw-text diffs are noisy on competitor pages</h2>
+<p>Pricing and legal pages look static, but their HTML is not. Every request can carry a new CSRF token, a "last updated 3 minutes ago" label, a rotating testimonial, a cookie banner, an A/B-tested headline or a cache-busting query string. A plain screenshot or raw-text diff reports all of that as a change. Some services add filtering on top (Visualping, for example, attaches an AI summary and an important-or-not flag to every change), but a page-level alert still leaves you to work out what moved. After a week of false alarms people stop reading the alerts, and the one real price increase goes unnoticed.</p>
+<p>What you actually want to know is narrower: <em>did a plan's price, currency or billing period change, was a plan added or removed, which section of the Terms changed and how, which roles opened or closed, which product pages appeared?</em> That needs a comparison that understands the page type.</p>
+
+<h2>What to compare on each page type</h2>
+<table><tr><th>Page</th><th>Compare</th><th>Ignore</th></tr>
+<tr><td>Pricing</td><td>Plan name &rarr; price, currency, period (month/year), per-user unit, "billed annually"</td><td>Badges ("Most popular"), button labels, reordered cards, strikethrough prices</td></tr>
+<tr><td>Terms / privacy</td><td>Sections by heading; added/removed sentences; renamed sections</td><td>"Last updated" dates, moved sentences, whitespace</td></tr>
+<tr><td>Careers</td><td>Job ids from the public Greenhouse, Lever or Ashby board API; departments</td><td>Page layout, testimonials, view counters</td></tr>
+<tr><td>Changelog / blog</td><td>New entry headings and links</td><td>Relative dates ("2 days ago")</td></tr>
+<tr><td>Product pages</td><td>URLs in sitemap.xml (added/removed, product-like paths first)</td><td>Mass churn in blog archives, lastmod timestamps</td></tr></table>
+
+<h2>A free, minimal change check in Python</h2>
+<p>This script respects robots.txt, identifies itself, drops scripts, nav and footer, removes dates and times, and stores a hash per URL. Run it from cron; it prints <code>baseline</code>, <code>unchanged</code> or <code>CHANGED</code>. It tells you <em>that</em> something changed, not what, and it will still trip on A/B tests and rotating content.</p>
+<pre><code>{{SNIPPET:tracker-free.py}}</code></pre>
+
+<h2>Semantic tracking with the Fairquery Actor</h2>
+<p>The Actor does the type-aware comparison for you. Give it pages (or just competitor domains plus the page types to find), schedule it, and each run returns only the changes, each with a plain-English summary, a severity and the details. The first run stores a baseline in a named key-value store in your own Apify account.</p>
+<pre><code>{{SNIPPET:tracker-input.json}}</code></pre>
+<p>Rows from our test runs on 2026-10-18. The old values were <strong>simulated</strong> by editing the stored baseline, so the live page then differed from it; the current values are the real ones from Basecamp, Linear and Linear's Ashby board:</p>
+<pre><code>{{SNIPPET:tracker-output.json}}</code></pre>
+<p>Two noise filters matter most in practice. First, a change is <strong>confirmed with a second read</strong> before it is reported: in our tests Slack's pricing page served two variants within seconds, and the confirmation read filtered it out. Second, the Actor <strong>remembers recent versions</strong>, so a page that alternates between two versions across runs alerts once and then only as a low-severity "switched back" item. Immediate reruns over 23 real pages (pricing, terms, careers, changelogs, a 1,281-URL sitemap) reported zero changes.</p>
+
+<h2>Politeness rules we follow</h2>
+<ul>
+<li>Public, no-login pages only. No cookies or sessions, no CAPTCHA solving, no proxies to get around blocks.</li>
+<li>robots.txt (RFC 9309) is checked for every page and redirect; disallowed pages are skipped and reported. Crawl-delay is honoured.</li>
+<li>Honest user agent (<code>FairqueryChangeTracker/1.0</code> with a contact address), one request at a time per host, at least 1.5 s apart, conditional requests (ETag / If-Modified-Since).</li>
+<li>Plain HTTP first. A headless browser is opt-in, only for JavaScript-rendered pricing pages, and still respects robots.txt.</li>
+<li>A 403 or 429 stops all requests to that host for the rest of the run.</li>
+</ul>
+
+<h2>Cost compared with change-monitoring services</h2>
+<table><tr><th>Option</th><th>20 pages checked hourly (14,400 checks/month)</th><th>Output</th></tr>
+<tr><td>Visualping Business 20K</td><td>$140/month, or $100/month billed annually (20,000 checks; the largest Personal plan has 10,000)</td><td>Visual, text and element change alerts with screenshots, an AI summary and an important-or-not flag</td></tr>
+<tr><td>ChangeTower Essential</td><td>$36/month (100 pages hourly)</td><td>Visual/text/HTML diff alerts</td></tr>
+<tr><td>Distill.io Starter</td><td>$15/month (30K checks)</td><td>Text diff alerts</td></tr>
+<tr><td>Fairquery Competitor Change Tracker (proposed)</td><td>&asymp; $7 + $0.0049 per change</td><td>Plan/price, legal-section, job and sitemap changes with summaries and severity</td></tr></table>
+<p>Visualping prices from its pricing page on 2026-10-19; ChangeTower and Distill.io prices from their pricing pages on 2026-10-18. Freshness is set by your schedule in every case; none of these, including ours, sees a change made and reverted between two checks.</p>
+
+<h2>FAQ</h2>
+{{FAQ}}
+
+<div class="note"><p><strong>Limitations.</strong> Plan parsing is heuristic and works best on server-rendered pricing pages; usage-based calculators can produce odd plan names, but text changes are still caught. Prices can vary by country and A/B test, and runs use Apify datacenter IPs. Fairquery is not affiliated with Visualping, Distill, ChangeTower or any site mentioned.</p></div>
+<p>Docs: <a href="https://apify.com/fairquery/competitor-change-tracker">Apify Store</a> &middot; <a href="/tools/">all Fairquery tools</a></p>

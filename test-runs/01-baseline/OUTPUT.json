@@ -1,0 +1,152 @@
+{
+ "schema_version": "1.0.0",
+ "watchlist": "fq-test-saas",
+ "checked_at": "2026-10-18T02:03:23.655Z",
+ "status": "ok",
+ "first_run_for_watchlist": true,
+ "pages_total": 20,
+ "pages_checked": 19,
+ "baselines": 19,
+ "changes": 0,
+ "changes_by_severity": {
+  "low": 0,
+  "medium": 0,
+  "high": 0
+ },
+ "unchanged": 0,
+ "skipped": 1,
+ "errors": 0,
+ "requests": 39,
+ "bytes_downloaded": 15574405,
+ "browser_renders": 0,
+ "events": {
+  "page-checked": 20
+ },
+ "event_charges_usd_at_list_price": 0.0098,
+ "webhook": null,
+ "state_store": "fairquery-competitor-tracker",
+ "duration_secs": 149.5,
+ "pages": [
+  {
+   "url": "https://tailscale.com/pricing",
+   "type": "pricing",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://basecamp.com/pricing",
+   "type": "pricing",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://linear.app/pricing",
+   "type": "pricing",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://zapier.com/pricing",
+   "type": "pricing",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://tailscale.com/terms",
+   "type": "terms",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://linear.app/terms",
+   "type": "terms",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://tailscale.com/careers",
+   "type": "careers",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://basecamp.com/about/policies/terms",
+   "type": "terms",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://linear.app/privacy",
+   "type": "privacy",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://about.gitlab.com/pricing/",
+   "type": "pricing",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://tailscale.com/",
+   "type": "product",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://linear.app/changelog",
+   "type": "changelog",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://github.com/pricing",
+   "type": "pricing",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://www.notion.com/pricing",
+   "type": "pricing",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://jobs.ashbyhq.com/linear",
+   "type": "careers",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://slack.com/terms-of-service",
+   "type": "terms",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://github.com/site/terms",
+   "type": "terms",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://www.amazon.com/gp/cart/view.html",
+   "type": "generic",
+   "status": "skipped",
+   "changes": 0,
+   "note": "ROBOTS_DISALLOWED: robots.txt on www.amazon.com disallows /gp/cart/view.html"
+  },
+  {
+   "url": "https://posthog.com/changelog",
+   "type": "changelog",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://www.figma.com/careers/",
+   "type": "careers",
+   "status": "baseline",
+   "changes": 0
+  }
+ ]
+}

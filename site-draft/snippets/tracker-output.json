@@ -1,0 +1,151 @@
+[
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-main",
+  "checked_at": "2026-10-18T02:15:41.208Z",
+  "url": "https://linear.app/pricing",
+  "page_type": "pricing",
+  "label": null,
+  "domain": "linear.app",
+  "type": "change",
+  "final_url": "https://linear.app/pricing",
+  "severity": "high",
+  "change_kind": "price_changed",
+  "summary": "\"Business\" price changed from $14/month per user to $16/month per user (up 14.3%).",
+  "details": {
+   "plan": "Business",
+   "from": {
+    "amount": 14,
+    "currency": "USD",
+    "period": "month",
+    "billing": null,
+    "unit": "user",
+    "raw": "$16"
+   },
+   "to": {
+    "amount": 16,
+    "currency": "USD",
+    "period": "month",
+    "billing": null,
+    "unit": "user",
+    "raw": "$16"
+   },
+   "change_pct": 14.3
+  },
+  "previous_checked_at": "2026-10-18T02:10:52.136Z"
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-main",
+  "checked_at": "2026-10-18T02:15:41.208Z",
+  "url": "https://basecamp.com/pricing",
+  "page_type": "pricing",
+  "label": null,
+  "domain": "basecamp.com",
+  "type": "change",
+  "final_url": "https://basecamp.com/pricing",
+  "severity": "high",
+  "change_kind": "price_changed",
+  "summary": "\"Pro\" price changed from $79/month to $99/month (up 25.3%).",
+  "details": {
+   "plan": "Pro",
+   "from": {
+    "amount": 79,
+    "currency": "USD",
+    "period": "month",
+    "billing": null,
+    "unit": null,
+    "raw": "$79"
+   },
+   "to": {
+    "amount": 99,
+    "currency": "USD",
+    "period": "month",
+    "billing": null,
+    "unit": null,
+    "raw": "$99"
+   },
+   "change_pct": 25.3
+  },
+  "previous_checked_at": "2026-10-18T02:10:52.136Z"
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-main",
+  "checked_at": "2026-10-18T02:15:41.208Z",
+  "url": "https://linear.app/terms",
+  "page_type": "terms",
+  "label": null,
+  "domain": "linear.app",
+  "type": "change",
+  "final_url": "https://linear.app/terms",
+  "severity": "high",
+  "change_kind": "legal_text_changed",
+  "summary": "Terms of service: 2 sections changed: \"Terms of Service\" (modified: +1/−1 sentences), \"Linear’s Ownership\" (added). Added: “(“Linear”).”",
+  "details": {
+   "sections_changed": 2,
+   "changed_chars": 872,
+   "sections": [
+    {
+     "heading": "Terms of Service",
+     "change": "modified",
+     "added": [
+      "(“Linear”)."
+     ],
+     "removed": [
+      "Customer may terminate this Agreement at any time with thirty days written notice and will receive a pro-rata refund of prepaid fees."
+     ],
+     "more_added": 0,
+     "more_removed": 0
+    },
+    {
+     "heading": "Linear’s Ownership",
+     "change": "added",
+     "added": [
+      "Linear owns the Service, Software, Linear Content, Documentation, and anything else provided by Linear to Customer (collectively the “Linear Materials”)."
+     ],
+     "removed": [],
+     "more_added": 0,
+     "more_removed": 0
+    }
+   ]
+  },
+  "previous_checked_at": "2026-10-18T02:10:52.136Z"
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-main",
+  "checked_at": "2026-10-18T02:15:41.208Z",
+  "url": "https://jobs.ashbyhq.com/linear",
+  "page_type": "careers",
+  "label": null,
+  "domain": "jobs.ashbyhq.com",
+  "type": "change",
+  "final_url": "https://jobs.ashbyhq.com/linear",
+  "severity": "low",
+  "change_kind": "jobs_changed",
+  "summary": "3 new roles (3 Product); 1 role closed (1 Engineering). Open roles: 27 → 29 (+7%). Examples: Senior / Staff Product Engineer, Product Engineer, Senior / Staff Product Engineer.",
+  "details": {
+   "open_before": 27,
+   "open_after": 29,
+   "opened": [
+    {
+     "id": "069c4628-88d7-4e4d-b393-c996fc7f3076",
+     "title": "Senior / Staff Product Engineer",
+     "department": "Product",
+     "location": "Europe"
+    }
+   ],
+   "closed": [
+    {
+     "id": "sim-closed-1",
+     "title": "Senior Simulated Engineer",
+     "department": "Engineering",
+     "location": "North America"
+    }
+   ],
+   "keyword_matches": []
+  },
+  "previous_checked_at": "2026-10-18T02:10:52.136Z"
+ }
+]

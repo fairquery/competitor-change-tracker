@@ -1,0 +1,58 @@
+[
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:26:21.277Z",
+  "type": "skipped",
+  "code": "DUPLICATE_PAGE",
+  "url": "https://buffer.com/legal",
+  "domain": "buffer.com",
+  "page_type": "privacy",
+  "message": "buffer.com: the privacy page is the same page as the terms page (https://buffer.com/legal); tracked once as terms"
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:26:21.277Z",
+  "type": "skipped",
+  "code": "PAGE_NOT_FOUND",
+  "url": null,
+  "domain": "netlify.com",
+  "page_type": "terms",
+  "message": "netlify.com: no terms page found on the homepage or common paths"
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:26:21.277Z",
+  "url": "https://buffer.com/pricing?cta=bufferSite-globalNav-pricing-pricing-1",
+  "page_type": "pricing",
+  "label": "buffer.com pricing",
+  "domain": "buffer.com",
+  "type": "change",
+  "final_url": "https://buffer.com/pricing?cta=bufferSite-globalNav-pricing-pricing-1",
+  "severity": "medium",
+  "change_kind": "pricing_text_changed",
+  "summary": "Pricing page: 1 section changed: \"Pricing\" (modified: +2/\u22121 sentences). Removed: \u201cFlexible pricing for everyone\u201d Added: \u201cFor solo creators through to multi-brand agencies. Add channels as you grow, remove them when you don't.\u201d",
+  "details": {
+   "sections_changed": 1,
+   "changed_chars": 166,
+   "sections": [
+    {
+     "heading": "Pricing",
+     "change": "modified",
+     "added": [
+      "Only pay for the channels you use",
+      "For solo creators through to multi-brand agencies. Add channels as you grow, remove them when you don't."
+     ],
+     "removed": [
+      "Flexible pricing for everyone"
+     ],
+     "more_added": 0,
+     "more_removed": 0
+    }
+   ]
+  },
+  "previous_checked_at": "2026-10-18T02:20:09.301Z"
+ }
+]

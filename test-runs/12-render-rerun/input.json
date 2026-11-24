@@ -1,0 +1,19 @@
+{
+ "watchlistName": "fq-test-render",
+ "pages": [
+  {
+   "url": "https://www.atlassian.com/software/jira/pricing",
+   "type": "pricing"
+  },
+  {
+   "url": "https://www.typeform.com/pricing/",
+   "type": "pricing"
+  },
+  {
+   "url": "https://basecamp.com/pricing",
+   "type": "pricing"
+  }
+ ],
+ "renderJs": "auto",
+ "minSeverity": "low"
+}

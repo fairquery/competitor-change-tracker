@@ -1,0 +1,52 @@
+{
+ "schema_version": "1.0.0",
+ "watchlist": "fq-test-render",
+ "checked_at": "2026-10-18T02:27:46.618Z",
+ "status": "ok",
+ "first_run_for_watchlist": false,
+ "pages_total": 3,
+ "pages_checked": 3,
+ "baselines": 0,
+ "changes": 0,
+ "changes_by_severity": {
+  "low": 0,
+  "medium": 0,
+  "high": 0
+ },
+ "unchanged": 3,
+ "skipped": 0,
+ "errors": 0,
+ "requests": 3,
+ "bytes_downloaded": 749701,
+ "browser_renders": 1,
+ "events": {
+  "page-checked": 3,
+  "page-rendered": 1
+ },
+ "event_charges_usd_at_list_price": 0.00637,
+ "webhook": null,
+ "state_store": "fairquery-competitor-tracker",
+ "duration_secs": 30.9,
+ "pages": [
+  {
+   "url": "https://basecamp.com/pricing",
+   "type": "pricing",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "304 Not Modified"
+  },
+  {
+   "url": "https://www.typeform.com/pricing/",
+   "type": "pricing",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "identical bytes"
+  },
+  {
+   "url": "https://www.atlassian.com/software/jira/pricing",
+   "type": "pricing",
+   "status": "unchanged",
+   "changes": 0
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+{"jobs":[
+{"id":101,"title":"Senior Backend Engineer","location":{"name":"Remote (US)"},"departments":[{"name":"Engineering"}]},
+{"id":102,"title":"Account Executive","location":{"name":"New York"},"departments":[{"name":"Sales"}]},
+{"id":103,"title":"Product Designer","location":{"name":"London"},"departments":[{"name":"Design"}]}
+]}

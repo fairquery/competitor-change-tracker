@@ -1,0 +1,188 @@
+{
+ "schema_version": "1.0.0",
+ "watchlist": "fq-clean-108",
+ "checked_at": "2026-10-18T02:45:16.910Z",
+ "status": "ok",
+ "first_run_for_watchlist": false,
+ "pages_total": 24,
+ "pages_checked": 23,
+ "baselines": 0,
+ "changes": 0,
+ "changes_by_severity": {
+  "low": 0,
+  "medium": 0,
+  "high": 0
+ },
+ "unchanged": 23,
+ "skipped": 1,
+ "errors": 0,
+ "requests": 29,
+ "bytes_downloaded": 16181348,
+ "browser_renders": 0,
+ "events": {
+  "page-checked": 24
+ },
+ "event_charges_usd_at_list_price": 0.01176,
+ "webhook": null,
+ "state_store": "fairquery-competitor-tracker",
+ "duration_secs": 7.7,
+ "pages": [
+  {
+   "url": "https://linear.app/pricing",
+   "type": "pricing",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "identical bytes"
+  },
+  {
+   "url": "https://zapier.com/pricing",
+   "type": "pricing",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "304 Not Modified"
+  },
+  {
+   "url": "https://basecamp.com/pricing",
+   "type": "pricing",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "304 Not Modified"
+  },
+  {
+   "url": "https://tailscale.com/pricing",
+   "type": "pricing",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "304 Not Modified"
+  },
+  {
+   "url": "https://about.gitlab.com/pricing/",
+   "type": "pricing",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "304 Not Modified"
+  },
+  {
+   "url": "https://github.com/pricing",
+   "type": "pricing",
+   "status": "unchanged",
+   "changes": 0
+  },
+  {
+   "url": "https://linear.app/terms",
+   "type": "terms",
+   "status": "unchanged",
+   "changes": 0
+  },
+  {
+   "url": "https://tailscale.com/terms",
+   "type": "terms",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "304 Not Modified"
+  },
+  {
+   "url": "https://basecamp.com/about/policies/terms",
+   "type": "terms",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "identical bytes"
+  },
+  {
+   "url": "https://www.notion.com/pricing",
+   "type": "pricing",
+   "status": "unchanged",
+   "changes": 0
+  },
+  {
+   "url": "https://linear.app/privacy",
+   "type": "privacy",
+   "status": "unchanged",
+   "changes": 0
+  },
+  {
+   "url": "https://tailscale.com/careers",
+   "type": "careers",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "304 Not Modified"
+  },
+  {
+   "url": "https://github.com/site/terms",
+   "type": "terms",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "identical bytes"
+  },
+  {
+   "url": "https://jobs.ashbyhq.com/linear",
+   "type": "careers",
+   "status": "unchanged",
+   "changes": 0
+  },
+  {
+   "url": "https://www.figma.com/careers/",
+   "type": "careers",
+   "status": "unchanged",
+   "changes": 0
+  },
+  {
+   "url": "https://slack.com/terms-of-service",
+   "type": "terms",
+   "status": "unchanged",
+   "changes": 0
+  },
+  {
+   "url": "https://posthog.com/changelog",
+   "type": "changelog",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "304 Not Modified"
+  },
+  {
+   "url": "https://linear.app/changelog",
+   "type": "changelog",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "identical bytes"
+  },
+  {
+   "url": "https://tailscale.com/",
+   "type": "product",
+   "status": "unchanged",
+   "changes": 0
+  },
+  {
+   "url": "https://job-boards.greenhouse.io/anthropic",
+   "type": "careers",
+   "status": "unchanged",
+   "changes": 0
+  },
+  {
+   "url": "https://www.dropbox.com/plans",
+   "type": "pricing",
+   "status": "unchanged",
+   "changes": 0
+  },
+  {
+   "url": "https://www.amazon.com/gp/cart/view.html",
+   "type": "generic",
+   "status": "skipped",
+   "changes": 0,
+   "note": "ROBOTS_DISALLOWED: robots.txt on www.amazon.com disallows /gp/cart/view.html"
+  },
+  {
+   "url": "https://jobs.lever.co/palantir",
+   "type": "careers",
+   "status": "unchanged",
+   "changes": 0
+  },
+  {
+   "url": "https://slack.com/pricing",
+   "type": "pricing",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "change seen on one read but not on an immediate re-read (A/B test or rotating content); not reported"
+  }
+ ]
+}

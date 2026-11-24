@@ -1,0 +1,7 @@
+{
+ "watchlistName": "fq-test-domains",
+ "domains": ["cal.com", "posthog.com", "buffer.com", "netlify.com"],
+ "pageTypes": ["pricing", "terms", "privacy", "careers", "changelog", "product"],
+ "maxPages": 40,
+ "minSeverity": "low"
+}

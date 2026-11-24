@@ -1,0 +1,33 @@
+2026-10-18T02:10:33.096Z ACTOR: Pulling container image of build SW1Ifc379OXNBqKX3 from registry.
+2026-10-18T02:10:51.296Z ACTOR: Creating container.
+2026-10-18T02:10:51.402Z ACTOR: Starting container.
+2026-10-18T02:10:51.406Z ACTOR: Running under "LIMITED_PERMISSIONS".
+2026-10-18T02:10:51.488Z Running on architecture: x86_64
+2026-10-18T02:10:51.495Z Will run command: xvfb-run -a -s "-ac -screen 0 1920x1080x24+32 -nolisten tcp" sh -c exec node --max-old-space-size=$(( ${ACTOR_MEMORY_MBYTES:-256} * 6 / 10 )) dist/main.js
+2026-10-18T02:10:52.132Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}
+2026-10-18T02:10:54.047Z INFO  pricing https://basecamp.com/pricing: baseline saved
+2026-10-18T02:10:54.051Z INFO  pricing https://tailscale.com/pricing: baseline saved
+2026-10-18T02:10:54.115Z INFO  pricing https://linear.app/pricing: baseline saved
+2026-10-18T02:10:54.180Z INFO  pricing https://zapier.com/pricing: baseline saved
+2026-10-18T02:10:54.426Z INFO  terms https://tailscale.com/terms: baseline saved
+2026-10-18T02:10:54.742Z INFO  terms https://basecamp.com/about/policies/terms: baseline saved
+2026-10-18T02:10:54.827Z INFO  terms https://linear.app/terms: baseline saved
+2026-10-18T02:10:54.864Z INFO  pricing https://about.gitlab.com/pricing/: baseline saved
+2026-10-18T02:10:55.475Z INFO  pricing https://www.notion.com/pricing: baseline saved
+2026-10-18T02:10:55.528Z INFO  pricing https://github.com/pricing: baseline saved
+2026-10-18T02:10:55.743Z INFO  careers https://tailscale.com/careers: baseline saved
+2026-10-18T02:10:55.974Z INFO  privacy https://linear.app/privacy: baseline saved
+2026-10-18T02:10:57.228Z INFO  terms https://slack.com/terms-of-service: baseline saved
+2026-10-18T02:10:57.263Z INFO  product https://tailscale.com/: baseline saved
+2026-10-18T02:10:57.666Z INFO  changelog https://linear.app/changelog: baseline saved
+2026-10-18T02:10:57.709Z INFO  careers https://jobs.ashbyhq.com/linear: baseline saved
+2026-10-18T02:10:59.248Z INFO  terms https://github.com/site/terms: baseline saved
+2026-10-18T02:10:59.504Z INFO  changelog https://posthog.com/changelog: baseline saved
+2026-10-18T02:10:59.573Z INFO  careers https://www.figma.com/careers/: baseline saved
+2026-10-18T02:10:59.597Z INFO  pricing https://slack.com/pricing: baseline saved
+2026-10-18T02:10:59.664Z WARN  https://www.amazon.com/gp/cart/view.html: ROBOTS_DISALLOWED: robots.txt on www.amazon.com disallows /gp/cart/view.html
+2026-10-18T02:11:00.907Z INFO  careers https://job-boards.greenhouse.io/anthropic: baseline saved
+2026-10-18T02:11:05.126Z INFO  careers https://jobs.lever.co/palantir: baseline saved
+2026-10-18T02:11:18.128Z INFO  pricing https://www.dropbox.com/plans: baseline saved
+2026-10-18T02:11:20.297Z INFO  23 page(s) checked: 23 baseline(s), 0 change(s) (0 high, 0 medium, 0 low), 1 skipped, 0 error(s).
+2026-10-18T02:11:20.298Z INFO  [Status message]: 23 page(s) checked: 23 baseline(s), 0 change(s) (0 high, 0 medium, 0 low), 1 skipped, 0 error(s).

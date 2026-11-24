@@ -1,0 +1,33 @@
+2026-10-18T02:14:27.593Z ACTOR: Pulling container image of build yBNN8rtgGoX0ZtSXw from registry.
+2026-10-18T02:14:46.962Z ACTOR: Creating container.
+2026-10-18T02:14:47.058Z ACTOR: Starting container.
+2026-10-18T02:14:47.059Z ACTOR: Running under "LIMITED_PERMISSIONS".
+2026-10-18T02:14:47.265Z Running on architecture: x86_64
+2026-10-18T02:14:47.267Z Will run command: xvfb-run -a -s "-ac -screen 0 1920x1080x24+32 -nolisten tcp" sh -c exec node --max-old-space-size=$(( ${ACTOR_MEMORY_MBYTES:-256} * 6 / 10 )) dist/main.js
+2026-10-18T02:14:49.124Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}
+2026-10-18T02:14:49.560Z INFO  pricing https://basecamp.com/pricing: no meaningful change
+2026-10-18T02:14:49.583Z INFO  pricing https://tailscale.com/pricing: no meaningful change
+2026-10-18T02:14:49.668Z INFO  pricing https://linear.app/pricing: no meaningful change
+2026-10-18T02:14:51.390Z INFO  pricing https://zapier.com/pricing: no meaningful change
+2026-10-18T02:14:51.442Z INFO  terms https://tailscale.com/terms: no meaningful change
+2026-10-18T02:14:51.514Z INFO  terms https://basecamp.com/about/policies/terms: no meaningful change
+2026-10-18T02:14:51.517Z INFO  pricing https://about.gitlab.com/pricing/: no meaningful change
+2026-10-18T02:14:51.706Z INFO  terms https://linear.app/terms: no meaningful change
+2026-10-18T02:14:52.034Z INFO  pricing https://www.notion.com/pricing: no meaningful change
+2026-10-18T02:14:52.389Z INFO  pricing https://github.com/pricing: no meaningful change
+2026-10-18T02:14:53.084Z INFO  privacy https://linear.app/privacy: no meaningful change
+2026-10-18T02:14:53.087Z INFO  careers https://tailscale.com/careers: no meaningful change
+2026-10-18T02:14:53.977Z INFO  terms https://slack.com/terms-of-service: no meaningful change
+2026-10-18T02:14:54.509Z INFO  changelog https://linear.app/changelog: no meaningful change
+2026-10-18T02:14:54.584Z INFO  product https://tailscale.com/: no meaningful change
+2026-10-18T02:14:54.607Z INFO  careers https://jobs.ashbyhq.com/linear: no meaningful change
+2026-10-18T02:14:54.686Z INFO  terms https://github.com/site/terms: no meaningful change
+2026-10-18T02:14:54.780Z INFO  changelog https://posthog.com/changelog: no meaningful change
+2026-10-18T02:14:54.799Z INFO  careers https://job-boards.greenhouse.io/anthropic: no meaningful change
+2026-10-18T02:14:56.237Z INFO  pricing https://www.dropbox.com/plans: no meaningful change
+2026-10-18T02:14:56.294Z INFO  careers https://www.figma.com/careers/: no meaningful change
+2026-10-18T02:14:56.387Z INFO  careers https://jobs.lever.co/palantir: no meaningful change
+2026-10-18T02:14:56.388Z WARN  https://www.amazon.com/gp/cart/view.html: ROBOTS_DISALLOWED: robots.txt on www.amazon.com disallows /gp/cart/view.html
+2026-10-18T02:14:57.126Z INFO  pricing https://slack.com/pricing: no meaningful change
+2026-10-18T02:14:57.327Z INFO  23 page(s) checked: 0 baseline(s), 0 change(s) (0 high, 0 medium, 0 low), 1 skipped, 0 error(s).
+2026-10-18T02:14:57.329Z INFO  [Status message]: 23 page(s) checked: 0 baseline(s), 0 change(s) (0 high, 0 medium, 0 low), 1 skipped, 0 error(s).

@@ -1,0 +1,15 @@
+[
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:45:16.910Z",
+  "url": "https://www.amazon.com/gp/cart/view.html",
+  "page_type": "generic",
+  "label": null,
+  "domain": "www.amazon.com",
+  "type": "skipped",
+  "code": "ROBOTS_DISALLOWED",
+  "message": "robots.txt on www.amazon.com disallows /gp/cart/view.html",
+  "retryable": false
+ }
+]

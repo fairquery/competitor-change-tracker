@@ -1,0 +1,177 @@
+{
+ "schema_version": "1.0.0",
+ "watchlist": "fq-test-domains",
+ "checked_at": "2026-10-18T02:26:21.277Z",
+ "status": "ok",
+ "first_run_for_watchlist": false,
+ "pages_total": 22,
+ "pages_checked": 22,
+ "baselines": 0,
+ "changes": 1,
+ "changes_by_severity": {
+  "low": 0,
+  "medium": 1,
+  "high": 0
+ },
+ "unchanged": 21,
+ "skipped": 2,
+ "errors": 0,
+ "requests": 43,
+ "bytes_downloaded": 7096294,
+ "browser_renders": 0,
+ "events": {
+  "page-checked": 42,
+  "change-detected": 1
+ },
+ "event_charges_usd_at_list_price": 0.02548,
+ "webhook": null,
+ "state_store": "fairquery-competitor-tracker",
+ "duration_secs": 28.8,
+ "pages": [
+  {
+   "url": "https://cal.com/pricing",
+   "type": "pricing",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "304 Not Modified"
+  },
+  {
+   "url": "https://posthog.com/pricing",
+   "type": "pricing",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "304 Not Modified"
+  },
+  {
+   "url": "https://www.netlify.com/pricing/",
+   "type": "pricing",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "304 Not Modified"
+  },
+  {
+   "url": "https://cal.com/terms",
+   "type": "terms",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "304 Not Modified"
+  },
+  {
+   "url": "https://posthog.com/terms",
+   "type": "terms",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "304 Not Modified"
+  },
+  {
+   "url": "https://www.netlify.com/privacy/",
+   "type": "privacy",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "304 Not Modified"
+  },
+  {
+   "url": "https://buffer.com/pricing?cta=bufferSite-globalNav-pricing-pricing-1",
+   "type": "pricing",
+   "status": "changed",
+   "changes": 1
+  },
+  {
+   "url": "https://posthog.com/privacy",
+   "type": "privacy",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "304 Not Modified"
+  },
+  {
+   "url": "https://buffer.com/legal",
+   "type": "terms",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "identical bytes"
+  },
+  {
+   "url": "https://cal.com/privacy",
+   "type": "privacy",
+   "status": "unchanged",
+   "changes": 0
+  },
+  {
+   "url": "https://www.netlify.com/careers/",
+   "type": "careers",
+   "status": "unchanged",
+   "changes": 0
+  },
+  {
+   "url": "https://cal.com/jobs",
+   "type": "careers",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "304 Not Modified"
+  },
+  {
+   "url": "https://posthog.com/careers",
+   "type": "careers",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "304 Not Modified"
+  },
+  {
+   "url": "https://buffer.com/journey",
+   "type": "careers",
+   "status": "unchanged",
+   "changes": 0
+  },
+  {
+   "url": "https://www.netlify.com/changelog/",
+   "type": "changelog",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "identical bytes"
+  },
+  {
+   "url": "https://buffer.com/changelog",
+   "type": "changelog",
+   "status": "unchanged",
+   "changes": 0
+  },
+  {
+   "url": "https://cal.com/subscribe",
+   "type": "changelog",
+   "status": "unchanged",
+   "changes": 0
+  },
+  {
+   "url": "https://posthog.com/changelog",
+   "type": "changelog",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "304 Not Modified"
+  },
+  {
+   "url": "https://netlify.com/",
+   "type": "product",
+   "status": "unchanged",
+   "changes": 0
+  },
+  {
+   "url": "https://posthog.com/",
+   "type": "product",
+   "status": "unchanged",
+   "changes": 0
+  },
+  {
+   "url": "https://cal.com/",
+   "type": "product",
+   "status": "unchanged",
+   "changes": 0
+  },
+  {
+   "url": "https://buffer.com/",
+   "type": "product",
+   "status": "unchanged",
+   "changes": 0,
+   "note": "stopped after 10 sitemap files (maxSitemapFiles); removed pages are not reported for this run"
+  }
+ ]
+}

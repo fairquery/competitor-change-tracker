@@ -1,0 +1,96 @@
+{
+ "watchlistName": "fq-test-saas",
+ "pages": [
+  {
+   "url": "https://basecamp.com/pricing",
+   "type": "pricing"
+  },
+  {
+   "url": "https://linear.app/pricing",
+   "type": "pricing"
+  },
+  {
+   "url": "https://tailscale.com/pricing",
+   "type": "pricing"
+  },
+  {
+   "url": "https://zapier.com/pricing",
+   "type": "pricing"
+  },
+  {
+   "url": "https://about.gitlab.com/pricing/",
+   "type": "pricing"
+  },
+  {
+   "url": "https://github.com/pricing",
+   "type": "pricing"
+  },
+  {
+   "url": "https://www.notion.com/pricing",
+   "type": "pricing"
+  },
+  {
+   "url": "https://basecamp.com/about/policies/terms",
+   "type": "terms"
+  },
+  {
+   "url": "https://github.com/site/terms",
+   "type": "terms"
+  },
+  {
+   "url": "https://linear.app/terms",
+   "type": "terms"
+  },
+  {
+   "url": "https://linear.app/privacy",
+   "type": "privacy"
+  },
+  {
+   "url": "https://tailscale.com/terms",
+   "type": "terms"
+  },
+  {
+   "url": "https://slack.com/terms-of-service",
+   "type": "terms"
+  },
+  {
+   "url": "https://jobs.ashbyhq.com/linear",
+   "type": "careers"
+  },
+  {
+   "url": "https://tailscale.com/careers",
+   "type": "careers"
+  },
+  {
+   "url": "https://www.figma.com/careers/",
+   "type": "careers"
+  },
+  {
+   "url": "https://linear.app/changelog",
+   "type": "changelog"
+  },
+  {
+   "url": "https://posthog.com/changelog",
+   "type": "changelog"
+  },
+  {
+   "url": "https://tailscale.com/",
+   "type": "product"
+  },
+  {
+   "url": "https://www.amazon.com/gp/cart/view.html",
+   "type": "generic"
+  }
+ ],
+ "careersKeywords": [
+  "AI",
+  "machine learning",
+  "enterprise"
+ ],
+ "watchKeywords": [
+  "AI",
+  "SOC 2"
+ ],
+ "minSeverity": "low",
+ "includeDiff": true
+}

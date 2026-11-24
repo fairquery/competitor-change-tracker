@@ -1,0 +1,63 @@
+[
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-107",
+  "checked_at": "2026-10-18T02:37:02.805Z",
+  "url": "https://www.amazon.com/gp/cart/view.html",
+  "page_type": "generic",
+  "label": null,
+  "domain": "www.amazon.com",
+  "type": "skipped",
+  "code": "ROBOTS_DISALLOWED",
+  "message": "robots.txt on www.amazon.com disallows /gp/cart/view.html",
+  "retryable": false
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-107",
+  "checked_at": "2026-10-18T02:37:02.805Z",
+  "url": "https://slack.com/pricing",
+  "page_type": "pricing",
+  "label": null,
+  "domain": "slack.com",
+  "type": "change",
+  "final_url": "https://slack.com/pricing",
+  "severity": "high",
+  "change_kind": "plan_added",
+  "summary": "New plan \"Enterprise+\" ($45/month per user). Also on the page: Pricing page: 1 section changed: \"Choose a paid plan built for businesses.\" (modified: +2/\u22121 sentences). Removed: \u201cContact sales for pricing\u201d Added: \u201cper user / month, when paying annually\u201d",
+  "details": {
+   "plan": "Enterprise+",
+   "prices": [
+    {
+     "amount": 45,
+     "currency": "USD",
+     "period": "month",
+     "billing": null,
+     "unit": "user",
+     "raw": "$45"
+    }
+   ],
+   "related_text_change": {
+    "summary": "Pricing page: 1 section changed: \"Choose a paid plan built for businesses.\" (modified: +2/\u22121 sentences). Removed: \u201cContact sales for pricing\u201d Added: \u201cper user / month, when paying annually\u201d",
+    "sections_changed": 1,
+    "changed_chars": 69,
+    "sections": [
+     {
+      "heading": "Choose a paid plan built for businesses.",
+      "change": "modified",
+      "added": [
+       "$45USD",
+       "per user / month, when paying annually"
+      ],
+      "removed": [
+       "Contact sales for pricing"
+      ],
+      "more_added": 0,
+      "more_removed": 0
+     }
+    ]
+   }
+  },
+  "previous_checked_at": "2026-10-18T02:35:57.969Z"
+ }
+]

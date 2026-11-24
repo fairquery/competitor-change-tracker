@@ -1,0 +1,1641 @@
+[
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://basecamp.com/pricing",
+  "page_type": "pricing",
+  "label": null,
+  "domain": "basecamp.com",
+  "type": "baseline",
+  "final_url": "https://basecamp.com/pricing",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Pricing page: baseline of 4 plan(s): Freelancer $25/month; Studio $59/month; Pro $99/month; Unlimited $299/month (billed annually). Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Basecamp \u2014 Pricing",
+   "sections": 20,
+   "plans": [
+    {
+     "name": "Freelancer",
+     "key": "freelancer",
+     "prices": [
+      {
+       "amount": 25,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$25"
+      }
+     ]
+    },
+    {
+     "name": "Studio",
+     "key": "studio",
+     "prices": [
+      {
+       "amount": 59,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$59"
+      }
+     ]
+    },
+    {
+     "name": "Pro",
+     "key": "pro",
+     "prices": [
+      {
+       "amount": 99,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$99"
+      }
+     ]
+    },
+    {
+     "name": "Unlimited",
+     "key": "unlimited",
+     "prices": [
+      {
+       "amount": 299,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": null,
+       "raw": "$299"
+      }
+     ]
+    }
+   ],
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 21,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://tailscale.com/pricing",
+  "page_type": "pricing",
+  "label": null,
+  "domain": "tailscale.com",
+  "type": "baseline",
+  "final_url": "https://tailscale.com/pricing",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Pricing page: baseline of 5 plan(s): Standard $8/month per user; Premium $18/month per user; Mullvad $1/month / $5/month; Users $0/month per user; Tagged resources Resources like exit nodes, etc. $1/month. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Tailscale pricing",
+   "sections": 33,
+   "plans": [
+    {
+     "name": "Standard",
+     "key": "standard",
+     "prices": [
+      {
+       "amount": 8,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$8"
+      }
+     ]
+    },
+    {
+     "name": "Premium",
+     "key": "premium",
+     "prices": [
+      {
+       "amount": 18,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$18"
+      }
+     ]
+    },
+    {
+     "name": "Mullvad",
+     "key": "mullvad",
+     "prices": [
+      {
+       "amount": 1,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$1"
+      },
+      {
+       "amount": 5,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$5"
+      }
+     ]
+    },
+    {
+     "name": "Users",
+     "key": "users",
+     "prices": [
+      {
+       "amount": 0,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$0"
+      }
+     ]
+    },
+    {
+     "name": "Tagged resources Resources like exit nodes, etc.",
+     "key": "tagged resources resources like exit nodes etc",
+     "prices": [
+      {
+       "amount": 1,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$1"
+      }
+     ]
+    }
+   ],
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 11,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://linear.app/pricing",
+  "page_type": "pricing",
+  "label": null,
+  "domain": "linear.app",
+  "type": "baseline",
+  "final_url": "https://linear.app/pricing",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Pricing page: baseline of 3 plan(s): Free $0; Basic $10/month per user; Business $16/month per user. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Pricing \u2013 Linear",
+   "sections": 6,
+   "plans": [
+    {
+     "name": "Free",
+     "key": "free",
+     "prices": [
+      {
+       "amount": 0,
+       "currency": "USD",
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "raw": "$0"
+      }
+     ]
+    },
+    {
+     "name": "Basic",
+     "key": "basic",
+     "prices": [
+      {
+       "amount": 10,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$10"
+      }
+     ]
+    },
+    {
+     "name": "Business",
+     "key": "business",
+     "prices": [
+      {
+       "amount": 16,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$16"
+      }
+     ]
+    }
+   ],
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 2,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://zapier.com/pricing",
+  "page_type": "pricing",
+  "label": null,
+  "domain": "zapier.com",
+  "type": "baseline",
+  "final_url": "https://zapier.com/pricing",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Pricing page: baseline of 9 plan(s): Free $0/month; Professional $19.99/month; Team $69/month; Agents Pro $33.33/month (billed annually) / $400/month (billed annually); Chatbots Pro $13.33/month (billed annually) / $160/month (billed annually); Chatbots Advanced $66.67/month (billed annually) / $800/month (billed annually); Enterprise Contact sales; Chatbots Free custom. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Plans & Pricing | Zapier",
+   "sections": 40,
+   "plans": [
+    {
+     "name": "Free",
+     "key": "free",
+     "prices": [
+      {
+       "amount": 0,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$0"
+      }
+     ]
+    },
+    {
+     "name": "Professional",
+     "key": "professional",
+     "prices": [
+      {
+       "amount": 19.99,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$19.99"
+      }
+     ]
+    },
+    {
+     "name": "Team",
+     "key": "team",
+     "prices": [
+      {
+       "amount": 69,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$69"
+      }
+     ]
+    },
+    {
+     "name": "Agents Pro",
+     "key": "agents pro",
+     "prices": [
+      {
+       "amount": 33.33,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": null,
+       "raw": "$33.33"
+      },
+      {
+       "amount": 400,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": null,
+       "raw": "$400"
+      }
+     ]
+    },
+    {
+     "name": "Chatbots Pro",
+     "key": "chatbots pro",
+     "prices": [
+      {
+       "amount": 13.33,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": null,
+       "raw": "$13.33"
+      },
+      {
+       "amount": 160,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": null,
+       "raw": "$160"
+      }
+     ]
+    },
+    {
+     "name": "Chatbots Advanced",
+     "key": "chatbots advanced",
+     "prices": [
+      {
+       "amount": 66.67,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": null,
+       "raw": "$66.67"
+      },
+      {
+       "amount": 800,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": null,
+       "raw": "$800"
+      }
+     ]
+    },
+    {
+     "name": "Enterprise",
+     "key": "enterprise",
+     "prices": [
+      {
+       "amount": null,
+       "currency": null,
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "custom": true,
+       "raw": "Contact sales"
+      }
+     ]
+    },
+    {
+     "name": "Chatbots Free",
+     "key": "chatbots free",
+     "prices": [
+      {
+       "amount": null,
+       "currency": null,
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "custom": true,
+       "raw": "custom"
+      }
+     ]
+    },
+    {
+     "name": "Chatbots Custom",
+     "key": "chatbots custom",
+     "prices": [
+      {
+       "amount": null,
+       "currency": null,
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "custom": true,
+       "raw": "Custom"
+      }
+     ]
+    }
+   ],
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 34,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://about.gitlab.com/pricing/",
+  "page_type": "pricing",
+  "label": null,
+  "domain": "about.gitlab.com",
+  "type": "baseline",
+  "final_url": "https://about.gitlab.com/pricing/",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Pricing page: baseline of 8 plan(s): Free $0/month per user; Premium $12/month per user (billed annually) / $29/month per user (billed annually); Ultimate $24/month per user; Enterprise Agile Planning Seats $15 per user; GitLab Credits $1; Compute Minutes $10 one-time per 1k; Storage $5/month (billed annually); Enterprise Agile Planning $15/month per user. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Pricing",
+   "sections": 49,
+   "plans": [
+    {
+     "name": "Free",
+     "key": "free",
+     "prices": [
+      {
+       "amount": 0,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$ 0"
+      }
+     ]
+    },
+    {
+     "name": "Premium",
+     "key": "premium",
+     "prices": [
+      {
+       "amount": 12,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": "user",
+       "raw": "$12"
+      },
+      {
+       "amount": 29,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": "user",
+       "raw": "$ 29"
+      }
+     ]
+    },
+    {
+     "name": "Ultimate",
+     "key": "ultimate",
+     "prices": [
+      {
+       "amount": 24,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$24"
+      }
+     ]
+    },
+    {
+     "name": "Enterprise Agile Planning Seats",
+     "key": "enterprise agile planning seats",
+     "prices": [
+      {
+       "amount": 15,
+       "currency": "USD",
+       "period": null,
+       "billing": null,
+       "unit": "user",
+       "raw": "$15"
+      }
+     ]
+    },
+    {
+     "name": "GitLab Credits",
+     "key": "gitlab credits",
+     "prices": [
+      {
+       "amount": 1,
+       "currency": "USD",
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "raw": "$ 1"
+      }
+     ]
+    },
+    {
+     "name": "Compute Minutes",
+     "key": "compute minutes",
+     "prices": [
+      {
+       "amount": 10,
+       "currency": "USD",
+       "period": "one_time",
+       "billing": null,
+       "unit": "1k",
+       "raw": "$ 10"
+      }
+     ]
+    },
+    {
+     "name": "Storage",
+     "key": "storage",
+     "prices": [
+      {
+       "amount": 5,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": null,
+       "raw": "$ 5"
+      }
+     ]
+    },
+    {
+     "name": "Enterprise Agile Planning",
+     "key": "enterprise agile planning",
+     "prices": [
+      {
+       "amount": 15,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$ 15"
+      }
+     ]
+    }
+   ],
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 15,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://tailscale.com/terms",
+  "page_type": "terms",
+  "label": null,
+  "domain": "tailscale.com",
+  "type": "baseline",
+  "final_url": "https://tailscale.com/terms",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Terms of service: baseline of 6 section(s), 62701 characters of text. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Terms of Service \u00b7 Tailscale",
+   "sections": 6,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 13,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://linear.app/terms",
+  "page_type": "terms",
+  "label": null,
+  "domain": "linear.app",
+  "type": "baseline",
+  "final_url": "https://linear.app/terms",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Terms of service: baseline of 55 section(s), 35867 characters of text. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Terms of Service",
+   "sections": 55,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 17,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://basecamp.com/about/policies/terms",
+  "page_type": "terms",
+  "label": null,
+  "domain": "basecamp.com",
+  "type": "baseline",
+  "final_url": "https://37signals.com/policies/terms",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Terms of service: baseline of 10 section(s), 12883 characters of text. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "37signals \u2014 Terms of Service",
+   "sections": 10,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 0,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://www.notion.com/pricing",
+  "page_type": "pricing",
+  "label": null,
+  "domain": "www.notion.com",
+  "type": "baseline",
+  "final_url": "https://www.notion.com/pricing",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Pricing page: baseline of 4 plan(s): Free $0/month per member; Plus $10/month per member; Business $20/month per member; Workers $0/month per member (billed annually) / $10/month per member (billed annually). Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Notion Pricing Plans: Free, Plus, Business, & Enterprise.",
+   "sections": 11,
+   "plans": [
+    {
+     "name": "Free",
+     "key": "free",
+     "prices": [
+      {
+       "amount": 0,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "member",
+       "raw": "$0"
+      }
+     ]
+    },
+    {
+     "name": "Plus",
+     "key": "plus",
+     "prices": [
+      {
+       "amount": 10,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "member",
+       "raw": "$10"
+      }
+     ]
+    },
+    {
+     "name": "Business",
+     "key": "business",
+     "prices": [
+      {
+       "amount": 20,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "member",
+       "raw": "$20"
+      }
+     ]
+    },
+    {
+     "name": "Workers",
+     "key": "workers",
+     "prices": [
+      {
+       "amount": 0,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": "member",
+       "raw": "$0"
+      },
+      {
+       "amount": 10,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": "member",
+       "raw": "$10"
+      },
+      {
+       "amount": 20,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": "member",
+       "raw": "$20"
+      }
+     ]
+    }
+   ],
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 22,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://github.com/pricing",
+  "page_type": "pricing",
+  "label": null,
+  "domain": "github.com",
+  "type": "baseline",
+  "final_url": "https://github.com/pricing",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Pricing page: baseline of 9 plan(s): Free $0/month; Team $4/month per user; Enterprise $21/month per user; GitHub Codespaces $0.07 per gb / $0.18/hour per gb; Git Large File Storage $5/month; Code workflow $0/month; Collaboration $4/month per user / $21/month per user; GitHub Secret Protection Custom. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "GitHub \u00b7 Plans & pricing for every developer and team \u00b7 GitHub",
+   "sections": 140,
+   "plans": [
+    {
+     "name": "Free",
+     "key": "free",
+     "prices": [
+      {
+       "amount": 0,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$ 0"
+      }
+     ]
+    },
+    {
+     "name": "Team",
+     "key": "team",
+     "prices": [
+      {
+       "amount": 4,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$ 4"
+      }
+     ]
+    },
+    {
+     "name": "Enterprise",
+     "key": "enterprise",
+     "prices": [
+      {
+       "amount": 21,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$ 21"
+      }
+     ]
+    },
+    {
+     "name": "GitHub Codespaces",
+     "key": "github codespaces",
+     "prices": [
+      {
+       "amount": 0.07,
+       "currency": "USD",
+       "period": null,
+       "billing": null,
+       "unit": "gb",
+       "raw": "$0.07"
+      },
+      {
+       "amount": 0.18,
+       "currency": "USD",
+       "period": "hour",
+       "billing": null,
+       "unit": "gb",
+       "raw": "$0.18"
+      }
+     ]
+    },
+    {
+     "name": "Git Large File Storage",
+     "key": "git large file storage",
+     "prices": [
+      {
+       "amount": 5,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$5"
+      }
+     ]
+    },
+    {
+     "name": "Code workflow",
+     "key": "code workflow",
+     "prices": [
+      {
+       "amount": 0,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$0"
+      }
+     ]
+    },
+    {
+     "name": "Collaboration",
+     "key": "collaboration",
+     "prices": [
+      {
+       "amount": 4,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$ 4"
+      },
+      {
+       "amount": 21,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$ 21"
+      }
+     ]
+    },
+    {
+     "name": "GitHub Secret Protection",
+     "key": "github secret protection",
+     "prices": [
+      {
+       "amount": null,
+       "currency": null,
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "custom": true,
+       "raw": "Custom"
+      }
+     ]
+    },
+    {
+     "name": "Code Security",
+     "key": "code security",
+     "prices": [
+      {
+       "amount": null,
+       "currency": null,
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "custom": true,
+       "raw": "custom"
+      }
+     ]
+    }
+   ],
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 5,
+    "SOC 2": 1
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://tailscale.com/careers",
+  "page_type": "careers",
+  "label": null,
+  "domain": "tailscale.com",
+  "type": "baseline",
+  "final_url": "https://tailscale.com/careers",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Careers page: baseline of 12 section(s), 2495 characters of text. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Careers at Tailscale \u00b7 Tailscale",
+   "sections": 12,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 0,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://linear.app/privacy",
+  "page_type": "privacy",
+  "label": null,
+  "domain": "linear.app",
+  "type": "baseline",
+  "final_url": "https://linear.app/privacy",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Privacy policy: baseline of 30 section(s), 21987 characters of text. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Privacy Policy",
+   "sections": 30,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 0,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://slack.com/terms-of-service",
+  "page_type": "terms",
+  "label": null,
+  "domain": "slack.com",
+  "type": "baseline",
+  "final_url": "https://slack.com/main-services-agreement",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Terms of service: baseline of 2 section(s), 1214 characters of text. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Main Services Agreement | Legal | Slack",
+   "sections": 2,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 0,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://tailscale.com/",
+  "page_type": "product",
+  "label": null,
+  "domain": "tailscale.com",
+  "type": "baseline",
+  "final_url": "https://tailscale.com/",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Product pages: baseline of 1281 URLs from 1 sitemap file(s). Future runs will report changes against this snapshot.",
+  "details": {
+   "title": null,
+   "sections": 0,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": 1281,
+   "sitemap_files": [
+    "https://tailscale.com/sitemap.xml"
+   ],
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://linear.app/changelog",
+  "page_type": "changelog",
+  "label": null,
+  "domain": "linear.app",
+  "type": "baseline",
+  "final_url": "https://linear.app/changelog",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Changelog: baseline of 43 entries, latest \u201cNow\u201d. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Changelog \u2013 Linear",
+   "sections": 43,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": [
+    {
+     "title": "Now",
+     "url": "https://linear.app/now"
+    },
+    {
+     "title": "Stacked pull requests",
+     "url": "https://linear.app/changelog/2026-10-08-stacked-pull-requests"
+    },
+    {
+     "title": "View code changes as the agent works",
+     "url": "https://linear.app/changelog#view-code-changes-as-the-agent-works"
+    },
+    {
+     "title": "AI credit usage explorer and spend limits",
+     "url": "https://linear.app/changelog#ai-credit-usage-explorer-and-spend-limits"
+    },
+    {
+     "title": "Guided Reviews on Basic",
+     "url": "https://linear.app/changelog#guided-reviews-on-basic"
+    },
+    {
+     "title": "New controls for Linear coding agent",
+     "url": "https://linear.app/changelog/2026-09-24-new-controls-for-linear-coding-agent"
+    },
+    {
+     "title": "Adaptive routing",
+     "url": "https://linear.app/changelog#adaptive-routing"
+    },
+    {
+     "title": "Environment secrets",
+     "url": "https://linear.app/changelog#environment-secrets"
+    },
+    {
+     "title": "Open-weight models",
+     "url": "https://linear.app/changelog#open-weight-models"
+    },
+    {
+     "title": "Team organization at scale",
+     "url": "https://linear.app/changelog#team-organization-at-scale"
+    }
+   ],
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 12,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://jobs.ashbyhq.com/linear",
+  "page_type": "careers",
+  "label": null,
+  "domain": "jobs.ashbyhq.com",
+  "type": "baseline",
+  "final_url": "https://jobs.ashbyhq.com/linear",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Careers page: baseline of 29 open roles from the ashby board \"linear\". Future runs will report changes against this snapshot.",
+  "details": {
+   "title": null,
+   "sections": 0,
+   "plans": null,
+   "jobs_count": 29,
+   "ats": {
+    "ats": "ashby",
+    "slug": "linear"
+   },
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 1,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://github.com/site/terms",
+  "page_type": "terms",
+  "label": null,
+  "domain": "github.com",
+  "type": "baseline",
+  "final_url": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Terms of service: baseline of 70 section(s), 43831 characters of text. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "GitHub Terms of Service - GitHub Docs",
+   "sections": 70,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 18,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://job-boards.greenhouse.io/anthropic",
+  "page_type": "careers",
+  "label": null,
+  "domain": "job-boards.greenhouse.io",
+  "type": "baseline",
+  "final_url": "https://job-boards.greenhouse.io/anthropic",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Careers page: baseline of 655 open roles from the greenhouse board \"anthropic\". Future runs will report changes against this snapshot.",
+  "details": {
+   "title": null,
+   "sections": 0,
+   "plans": null,
+   "jobs_count": 655,
+   "ats": {
+    "ats": "greenhouse",
+    "slug": "anthropic"
+   },
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 70,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://posthog.com/changelog",
+  "page_type": "changelog",
+  "label": null,
+  "domain": "posthog.com",
+  "type": "baseline",
+  "final_url": "https://posthog.com/changelog",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Changelog: baseline of 300 entries, latest \u201cOctober 2026\u201d. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Changelog - PostHog",
+   "sections": 1236,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": [
+    {
+     "title": "October 2026",
+     "url": "https://posthog.com/changelog.rss"
+    },
+    {
+     "title": "5 new MCP tools",
+     "url": "https://posthog.com/changelog?id=3070"
+    },
+    {
+     "title": "Find underused product features",
+     "url": "https://posthog.com/changelog?id=3071"
+    },
+    {
+     "title": "More useful weekly digests",
+     "url": "https://posthog.com/changelog?id=3072"
+    },
+    {
+     "title": "Updated hedgehogs across PostHog",
+     "url": "https://posthog.com/changelog?id=3073"
+    },
+    {
+     "title": "Go and Ruby MCP Analytics with the Wizard",
+     "url": "https://posthog.com/changelog?id=3074"
+    },
+    {
+     "title": "Trace endpoint dependencies",
+     "url": "https://posthog.com/changelog?id=3067"
+    },
+    {
+     "title": "Refreshed toolbar launch settings",
+     "url": "https://posthog.com/changelog?id=3068"
+    },
+    {
+     "title": "19 new MCP tools",
+     "url": "https://posthog.com/changelog?id=3069"
+    },
+    {
+     "title": "Send email broadcasts",
+     "url": "https://posthog.com/changelog?id=3065"
+    }
+   ],
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 280,
+    "SOC 2": 2
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://slack.com/pricing",
+  "page_type": "pricing",
+  "label": null,
+  "domain": "slack.com",
+  "type": "baseline",
+  "final_url": "https://slack.com/pricing",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Pricing page: baseline of 3 plan(s): Free $0; Pro $4.38/month per user / $7.25/month per user; Business+ $9/month per user / $15/month per user. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Slack Pricing Plans: Find the Right Fit for Your Team | Slack",
+   "sections": 8,
+   "plans": [
+    {
+     "name": "Free",
+     "key": "free",
+     "prices": [
+      {
+       "amount": 0,
+       "currency": "USD",
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "raw": "$0"
+      }
+     ]
+    },
+    {
+     "name": "Pro",
+     "key": "pro",
+     "prices": [
+      {
+       "amount": 4.38,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$4.38"
+      },
+      {
+       "amount": 7.25,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$7.25"
+      },
+      {
+       "amount": 8.75,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$8.75"
+      }
+     ]
+    },
+    {
+     "name": "Business+",
+     "key": "business",
+     "prices": [
+      {
+       "amount": 9,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$9"
+      },
+      {
+       "amount": 15,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$15"
+      },
+      {
+       "amount": 18,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$18"
+      }
+     ]
+    }
+   ],
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 71,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://www.figma.com/careers/",
+  "page_type": "careers",
+  "label": null,
+  "domain": "www.figma.com",
+  "type": "baseline",
+  "final_url": "https://www.figma.com/careers/",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Careers page: baseline of 139 open roles from the greenhouse board \"figma\". Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Careers at Figma",
+   "sections": 31,
+   "plans": null,
+   "jobs_count": 139,
+   "ats": {
+    "ats": "greenhouse",
+    "slug": "figma"
+   },
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 15,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://www.amazon.com/gp/cart/view.html",
+  "page_type": "generic",
+  "label": null,
+  "domain": "www.amazon.com",
+  "type": "skipped",
+  "code": "ROBOTS_DISALLOWED",
+  "message": "robots.txt on www.amazon.com disallows /gp/cart/view.html",
+  "retryable": false
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://jobs.lever.co/palantir",
+  "page_type": "careers",
+  "label": null,
+  "domain": "jobs.lever.co",
+  "type": "baseline",
+  "final_url": "https://jobs.lever.co/palantir",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Careers page: baseline of 310 open roles from the lever board \"palantir\". Future runs will report changes against this snapshot.",
+  "details": {
+   "title": null,
+   "sections": 0,
+   "plans": null,
+   "jobs_count": 310,
+   "ats": {
+    "ats": "lever",
+    "slug": "palantir"
+   },
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 3,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-clean-108",
+  "checked_at": "2026-10-18T02:43:49.387Z",
+  "url": "https://www.dropbox.com/plans",
+  "page_type": "pricing",
+  "label": null,
+  "domain": "www.dropbox.com",
+  "type": "baseline",
+  "final_url": "https://www.dropbox.com/plans",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Pricing page: baseline of 4 plan(s): Standard $9.99/month per user / $15/month per user; Plus $9.99/month; Advanced $24/month per user; Dropbox $0. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Find Your Dropbox Plan | Get 30 Days Free Trial",
+   "sections": 15,
+   "plans": [
+    {
+     "name": "Standard",
+     "key": "standard",
+     "prices": [
+      {
+       "amount": 9.99,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$9.99"
+      },
+      {
+       "amount": 15,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$15"
+      },
+      {
+       "amount": 24,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$24"
+      }
+     ]
+    },
+    {
+     "name": "Plus",
+     "key": "plus",
+     "prices": [
+      {
+       "amount": 9.99,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$9.99"
+      }
+     ]
+    },
+    {
+     "name": "Advanced",
+     "key": "advanced",
+     "prices": [
+      {
+       "amount": 24,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$24"
+      }
+     ]
+    },
+    {
+     "name": "Dropbox",
+     "key": "dropbox",
+     "prices": [
+      {
+       "amount": 0,
+       "currency": "USD",
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "raw": "USD 0"
+      }
+     ]
+    }
+   ],
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {
+    "AI": 13,
+    "SOC 2": 0
+   },
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ }
+]

@@ -1,0 +1,21 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Competitor Change Tracker output",
+    "properties": {
+        "changes": {
+            "type": "string",
+            "title": "Changes (dataset)",
+            "template": "{{links.apiDefaultDatasetUrl}}/items?view=changes"
+        },
+        "summary": {
+            "type": "string",
+            "title": "Run summary (OUTPUT)",
+            "template": "{{links.apiDefaultKeyValueStoreUrl}}/records/OUTPUT"
+        },
+        "digests": {
+            "type": "string",
+            "title": "Weekly digests (dataset)",
+            "template": "{{links.apiDefaultDatasetUrl}}/items?view=digests"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+2026-10-18T02:27:45.884Z ACTOR: Pulling container image of build exOhSpgjwvH40toJH from registry.
+2026-10-18T02:27:45.889Z ACTOR: Creating container.
+2026-10-18T02:27:45.962Z ACTOR: Starting container.
+2026-10-18T02:27:45.964Z ACTOR: Running under "LIMITED_PERMISSIONS".
+2026-10-18T02:27:46.046Z Running on architecture: x86_64
+2026-10-18T02:27:46.049Z Will run command: xvfb-run -a -s "-ac -screen 0 1920x1080x24+32 -nolisten tcp" sh -c exec node --max-old-space-size=$(( ${ACTOR_MEMORY_MBYTES:-256} * 6 / 10 )) dist/main.js
+2026-10-18T02:27:46.617Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}
+2026-10-18T02:27:47.406Z INFO  pricing https://basecamp.com/pricing: no meaningful change
+2026-10-18T02:27:48.963Z INFO  pricing https://www.typeform.com/pricing/: no meaningful change
+2026-10-18T02:28:16.983Z INFO  pricing https://www.atlassian.com/software/jira/pricing: no meaningful change
+2026-10-18T02:28:17.660Z INFO  3 page(s) checked: 0 baseline(s), 0 change(s) (0 high, 0 medium, 0 low), 0 skipped, 0 error(s).
+2026-10-18T02:28:17.663Z INFO  [Status message]: 3 page(s) checked: 0 baseline(s), 0 change(s) (0 high, 0 medium, 0 low), 0 skipped, 0 error(s).

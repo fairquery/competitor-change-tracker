@@ -1,0 +1,1140 @@
+[
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "type": "skipped",
+  "code": "PAGE_NOT_FOUND",
+  "url": null,
+  "domain": "netlify.com",
+  "page_type": "terms",
+  "message": "netlify.com: no terms page found on the homepage or common paths"
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://www.netlify.com/pricing/",
+  "page_type": "pricing",
+  "label": "netlify.com pricing",
+  "domain": "netlify.com",
+  "type": "baseline",
+  "final_url": "https://www.netlify.com/pricing/",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Pricing page: baseline of 9 plan(s): Free $0/month / $9/month; Pro $20/month; Add-on credits $5 / $10; Concurrent builds $40 per project; Preview Servers $15; Members $9/month / $20/month; Netlify Database Custom; Custom deployment options for functions Custom. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Pricing and Plans | Netlify",
+   "sections": 9,
+   "plans": [
+    {
+     "name": "Free",
+     "key": "free",
+     "prices": [
+      {
+       "amount": 0,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$0"
+      },
+      {
+       "amount": 9,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$9"
+      }
+     ]
+    },
+    {
+     "name": "Pro",
+     "key": "pro",
+     "prices": [
+      {
+       "amount": 20,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$20"
+      }
+     ]
+    },
+    {
+     "name": "Add-on credits",
+     "key": "add on credits",
+     "prices": [
+      {
+       "amount": 5,
+       "currency": "USD",
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "raw": "$5"
+      },
+      {
+       "amount": 10,
+       "currency": "USD",
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "raw": "$10"
+      }
+     ]
+    },
+    {
+     "name": "Concurrent builds",
+     "key": "concurrent builds",
+     "prices": [
+      {
+       "amount": 40,
+       "currency": "USD",
+       "period": null,
+       "billing": null,
+       "unit": "project",
+       "raw": "$40"
+      }
+     ]
+    },
+    {
+     "name": "Preview Servers",
+     "key": "preview servers",
+     "prices": [
+      {
+       "amount": 15,
+       "currency": "USD",
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "raw": "$15"
+      }
+     ]
+    },
+    {
+     "name": "Members",
+     "key": "members",
+     "prices": [
+      {
+       "amount": 9,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$9"
+      },
+      {
+       "amount": 20,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$20"
+      }
+     ]
+    },
+    {
+     "name": "Netlify Database",
+     "key": "netlify database",
+     "prices": [
+      {
+       "amount": null,
+       "currency": null,
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "custom": true,
+       "raw": "Custom"
+      }
+     ]
+    },
+    {
+     "name": "Custom deployment options for functions",
+     "key": "custom deployment options for functions",
+     "prices": [
+      {
+       "amount": null,
+       "currency": null,
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "custom": true,
+       "raw": "Custom"
+      }
+     ]
+    },
+    {
+     "name": "Netlify",
+     "key": "netlify",
+     "prices": [
+      {
+       "amount": 0,
+       "currency": "USD",
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "raw": "USD 0"
+      }
+     ]
+    }
+   ],
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://buffer.com/pricing?cta=bufferSite-globalNav-pricing-pricing-1",
+  "page_type": "pricing",
+  "label": "buffer.com pricing",
+  "domain": "buffer.com",
+  "type": "baseline",
+  "final_url": "https://buffer.com/pricing?cta=bufferSite-globalNav-pricing-pricing-1",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Pricing page: baseline of 2 plan(s): Essentials $5/month (billed annually) / $60/month (billed annually); Team Placeholder $10/month (billed annually) / $120/month (billed annually). Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Pricing | Buffer",
+   "sections": 93,
+   "plans": [
+    {
+     "name": "Essentials",
+     "key": "essentials",
+     "prices": [
+      {
+       "amount": 5,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": null,
+       "raw": "$5"
+      },
+      {
+       "amount": 60,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": null,
+       "raw": "$60"
+      }
+     ]
+    },
+    {
+     "name": "Team Placeholder",
+     "key": "team placeholder",
+     "prices": [
+      {
+       "amount": 10,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": null,
+       "raw": "$10"
+      },
+      {
+       "amount": 120,
+       "currency": "USD",
+       "period": "month",
+       "billing": "annual",
+       "unit": null,
+       "raw": "$120"
+      }
+     ]
+    }
+   ],
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://cal.com/pricing",
+  "page_type": "pricing",
+  "label": "cal.com pricing",
+  "domain": "cal.com",
+  "type": "baseline",
+  "final_url": "https://cal.com/pricing",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Pricing page: baseline of 4 plan(s): Teams $12/month per user; Organizations $28/month per user; Free forever $12/month per user / $28/month per user; Enterprise Custom. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Pricing | Cal.com",
+   "sections": 34,
+   "plans": [
+    {
+     "name": "Teams",
+     "key": "teams",
+     "prices": [
+      {
+       "amount": 12,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$12"
+      }
+     ]
+    },
+    {
+     "name": "Organizations",
+     "key": "organizations",
+     "prices": [
+      {
+       "amount": 28,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$28"
+      }
+     ]
+    },
+    {
+     "name": "Free forever",
+     "key": "free forever",
+     "prices": [
+      {
+       "amount": 12,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$12"
+      },
+      {
+       "amount": 28,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": "user",
+       "raw": "$28"
+      }
+     ]
+    },
+    {
+     "name": "Enterprise",
+     "key": "enterprise",
+     "prices": [
+      {
+       "amount": null,
+       "currency": null,
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "custom": true,
+       "raw": "Custom"
+      }
+     ]
+    }
+   ],
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://posthog.com/pricing",
+  "page_type": "pricing",
+  "label": "posthog.com pricing",
+  "domain": "posthog.com",
+  "type": "baseline",
+  "final_url": "https://posthog.com/pricing",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Pricing page: baseline of 3 plan(s): What you get for free, every month $5/month / $20/month; Pay-as-you-go $2/month; Select your cloud $0. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "PostHog pricing \u2013 Start free, scale when you need",
+   "sections": 45,
+   "plans": [
+    {
+     "name": "What you get for free, every month",
+     "key": "what you get for free every month",
+     "prices": [
+      {
+       "amount": 5,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$5"
+      },
+      {
+       "amount": 20,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$20"
+      },
+      {
+       "amount": 25,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$25"
+      }
+     ]
+    },
+    {
+     "name": "Pay-as-you-go",
+     "key": "pay as you go",
+     "prices": [
+      {
+       "amount": 2,
+       "currency": "USD",
+       "period": "month",
+       "billing": null,
+       "unit": null,
+       "raw": "$2"
+      }
+     ]
+    },
+    {
+     "name": "Select your cloud",
+     "key": "select your cloud",
+     "prices": [
+      {
+       "amount": 0,
+       "currency": "USD",
+       "period": null,
+       "billing": null,
+       "unit": null,
+       "raw": "$0"
+      }
+     ]
+    }
+   ],
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://www.netlify.com/privacy/",
+  "page_type": "privacy",
+  "label": "netlify.com privacy",
+  "domain": "netlify.com",
+  "type": "baseline",
+  "final_url": "https://www.netlify.com/privacy/",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Privacy policy: baseline of 24 section(s), 28560 characters of text. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Privacy Policy | Netlify",
+   "sections": 24,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://buffer.com/legal",
+  "page_type": "terms",
+  "label": "buffer.com terms",
+  "domain": "buffer.com",
+  "type": "baseline",
+  "final_url": "https://buffer.com/legal",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Terms of service: baseline of 146 section(s), 177518 characters of text. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Buffer | Legal",
+   "sections": 146,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://www.netlify.com/careers/",
+  "page_type": "careers",
+  "label": "netlify.com careers",
+  "domain": "netlify.com",
+  "type": "baseline",
+  "final_url": "https://www.netlify.com/careers/",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Careers page: baseline of 5 open roles from the greenhouse board \"netlify\". Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Careers at Netlify",
+   "sections": 19,
+   "plans": null,
+   "jobs_count": 5,
+   "ats": {
+    "ats": "greenhouse",
+    "slug": "netlify"
+   },
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://cal.com/terms",
+  "page_type": "terms",
+  "label": "cal.com terms",
+  "domain": "cal.com",
+  "type": "baseline",
+  "final_url": "https://cal.com/terms",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Terms of service: baseline of 20 section(s), 41291 characters of text. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Terms of Service | Cal.com",
+   "sections": 20,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://posthog.com/terms",
+  "page_type": "terms",
+  "label": "posthog.com terms",
+  "domain": "posthog.com",
+  "type": "baseline",
+  "final_url": "https://posthog.com/terms",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Terms of service: baseline of 21 section(s), 54403 characters of text. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Terms, PostHog style",
+   "sections": 21,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://www.netlify.com/changelog/",
+  "page_type": "changelog",
+  "label": "netlify.com changelog",
+  "domain": "netlify.com",
+  "type": "baseline",
+  "final_url": "https://www.netlify.com/changelog/",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Changelog: baseline of 24 entries, latest \u201cIntroducing the Support Hub\u201d. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Changelog | Netlify",
+   "sections": 26,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": [
+    {
+     "title": "Introducing the Support Hub",
+     "url": "https://www.netlify.com/changelog/2026-10-16-support-tickets-in-the-netlify-ui/"
+    },
+    {
+     "title": "What you can do",
+     "url": "https://www.netlify.com/changelog/2026-10-16-support-tickets-in-the-netlify-ui/"
+    },
+    {
+     "title": "Not on Enterprise?",
+     "url": "https://www.netlify.com/changelog/2026-10-16-support-tickets-in-the-netlify-ui/"
+    },
+    {
+     "title": "TypeSafe Jev 1.14.0 Now Available in AI Gateway",
+     "url": "https://www.netlify.com/changelog/typesafe-jev-1-14-0-ai-gateway/"
+    },
+    {
+     "title": "Security Update: Next.js and React vulnerabilities (October 2026)",
+     "url": "https://www.netlify.com/changelog/2026-10-14-nextjs-react-security-vulnerabilities/"
+    },
+    {
+     "title": "Summary",
+     "url": "https://www.netlify.com/changelog/2026-10-14-nextjs-react-security-vulnerabilities/"
+    },
+    {
+     "title": "Vulnerabilities",
+     "url": "https://www.netlify.com/changelog/2026-10-14-nextjs-react-security-vulnerabilities/"
+    },
+    {
+     "title": "Impact on Netlify",
+     "url": "https://www.netlify.com/changelog/2026-10-14-nextjs-react-security-vulnerabilities/"
+    },
+    {
+     "title": "Remote code execution",
+     "url": "https://www.netlify.com/changelog/2026-10-14-nextjs-react-security-vulnerabilities/"
+    },
+    {
+     "title": "Denial of service",
+     "url": "https://www.netlify.com/changelog/2026-10-14-nextjs-react-security-vulnerabilities/"
+    }
+   ],
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://buffer.com/legal",
+  "page_type": "privacy",
+  "label": "buffer.com privacy",
+  "domain": "buffer.com",
+  "type": "baseline",
+  "final_url": "https://buffer.com/legal",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Privacy policy: baseline of 146 section(s), 177518 characters of text. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Buffer | Legal",
+   "sections": 146,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://cal.com/privacy",
+  "page_type": "privacy",
+  "label": "cal.com privacy",
+  "domain": "cal.com",
+  "type": "baseline",
+  "final_url": "https://cal.com/privacy",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Privacy policy: baseline of 20 section(s), 19767 characters of text. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Privacy Policy | Cal.com",
+   "sections": 20,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://netlify.com/",
+  "page_type": "product",
+  "label": "netlify.com product",
+  "domain": "netlify.com",
+  "type": "baseline",
+  "final_url": "https://netlify.com/",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Product pages: baseline of 2705 URLs from 2 sitemap file(s). Future runs will report changes against this snapshot.",
+  "details": {
+   "title": null,
+   "sections": 0,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": 2705,
+   "sitemap_files": [
+    "https://www.netlify.com/sitemap-index.xml",
+    "https://www.netlify.com/sitemap-0.xml"
+   ],
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://posthog.com/privacy",
+  "page_type": "privacy",
+  "label": "posthog.com privacy",
+  "domain": "posthog.com",
+  "type": "baseline",
+  "final_url": "https://posthog.com/privacy",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Privacy policy: baseline of 48 section(s), 48429 characters of text. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Privacy policy, PostHog style",
+   "sections": 48,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://buffer.com/journey",
+  "page_type": "careers",
+  "label": "buffer.com careers",
+  "domain": "buffer.com",
+  "type": "baseline",
+  "final_url": "https://buffer.com/journey",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Careers page: baseline of 32 section(s), 6570 characters of text. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Join the Buffer journey - Jobs at Buffer",
+   "sections": 32,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://cal.com/jobs",
+  "page_type": "careers",
+  "label": "cal.com careers",
+  "domain": "cal.com",
+  "type": "baseline",
+  "final_url": "https://cal.com/jobs",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Careers page: baseline of 3 section(s), 4659 characters of text. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Cal.com Jobs | Work With Us and Connect a Billion People by 2031",
+   "sections": 3,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://posthog.com/careers",
+  "page_type": "careers",
+  "label": "posthog.com careers",
+  "domain": "posthog.com",
+  "type": "baseline",
+  "final_url": "https://posthog.com/careers",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Careers page: baseline of 123 section(s), 14030 characters of text. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Careers - PostHog",
+   "sections": 123,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://buffer.com/changelog",
+  "page_type": "changelog",
+  "label": "buffer.com changelog",
+  "domain": "buffer.com",
+  "type": "baseline",
+  "final_url": "https://buffer.com/changelog",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Changelog: baseline of 22 entries, latest \u201cWhat\u2019s new at Buffer\u201d. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Changelog | Buffer",
+   "sections": 22,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": [
+    {
+     "title": "What\u2019s new at Buffer",
+     "url": null
+    },
+    {
+     "title": "Music, collaborators, and more for Instagram",
+     "url": "https://buffer.com/changelog/music-collaborators-and-more-for-instagram"
+    },
+    {
+     "title": "Publish posts with images & video, together",
+     "url": "https://buffer.com/changelog/mixed-media-posts"
+    },
+    {
+     "title": "Substack Notes is now in Buffer",
+     "url": "https://buffer.com/changelog/substack-notes-is-now-in-buffer"
+    },
+    {
+     "title": "Push notification settings on web",
+     "url": "https://buffer.com/changelog/push-notification-settings-on-web"
+    },
+    {
+     "title": "Multi-channel Takeaways in Insights",
+     "url": "https://buffer.com/changelog/multi-channel-takeaways-in-insights-2"
+    },
+    {
+     "title": "A Better Way to Edit Images",
+     "url": "https://buffer.com/changelog/new-image-editor"
+    },
+    {
+     "title": "Filter Instagram & Facebook Posts by Post Type",
+     "url": "https://buffer.com/changelog/filter-instagram-facebook-posts-by-post-type"
+    },
+    {
+     "title": "Track and reply to your X mentions",
+     "url": "https://buffer.com/changelog/track-and-reply-to-your-x-mentions"
+    },
+    {
+     "title": "Custom Post Templates",
+     "url": "https://buffer.com/changelog/custom-post-templates-2"
+    }
+   ],
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://cal.com/subscribe",
+  "page_type": "changelog",
+  "label": "cal.com changelog",
+  "domain": "cal.com",
+  "type": "baseline",
+  "final_url": "https://cal.com/subscribe",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Changelog: baseline of 1 entries, latest \u201cSign up for our monthly changelog\u201d. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Cal.com | Open Scheduling Infrastructure",
+   "sections": 1,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": [
+    {
+     "title": "Sign up for our monthly changelog",
+     "url": null
+    }
+   ],
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://posthog.com/changelog",
+  "page_type": "changelog",
+  "label": "posthog.com changelog",
+  "domain": "posthog.com",
+  "type": "baseline",
+  "final_url": "https://posthog.com/changelog",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Changelog: baseline of 300 entries, latest \u201cOctober 2026\u201d. Future runs will report changes against this snapshot.",
+  "details": {
+   "title": "Changelog - PostHog",
+   "sections": 1236,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": [
+    {
+     "title": "October 2026",
+     "url": "https://posthog.com/changelog.rss"
+    },
+    {
+     "title": "5 new MCP tools",
+     "url": "https://posthog.com/changelog?id=3070"
+    },
+    {
+     "title": "Find underused product features",
+     "url": "https://posthog.com/changelog?id=3071"
+    },
+    {
+     "title": "More useful weekly digests",
+     "url": "https://posthog.com/changelog?id=3072"
+    },
+    {
+     "title": "Updated hedgehogs across PostHog",
+     "url": "https://posthog.com/changelog?id=3073"
+    },
+    {
+     "title": "Go and Ruby MCP Analytics with the Wizard",
+     "url": "https://posthog.com/changelog?id=3074"
+    },
+    {
+     "title": "Trace endpoint dependencies",
+     "url": "https://posthog.com/changelog?id=3067"
+    },
+    {
+     "title": "Refreshed toolbar launch settings",
+     "url": "https://posthog.com/changelog?id=3068"
+    },
+    {
+     "title": "19 new MCP tools",
+     "url": "https://posthog.com/changelog?id=3069"
+    },
+    {
+     "title": "Send email broadcasts",
+     "url": "https://posthog.com/changelog?id=3065"
+    }
+   ],
+   "sitemap_urls_count": null,
+   "sitemap_files": null,
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://posthog.com/",
+  "page_type": "product",
+  "label": "posthog.com product",
+  "domain": "posthog.com",
+  "type": "baseline",
+  "final_url": "https://posthog.com/",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Product pages: baseline of 12692 URLs from 2 sitemap file(s). Future runs will report changes against this snapshot.",
+  "details": {
+   "title": null,
+   "sections": 0,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": 12692,
+   "sitemap_files": [
+    "https://posthog.com/sitemap/sitemap-index.xml",
+    "https://posthog.com/sitemap/sitemap-0.xml"
+   ],
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://cal.com/",
+  "page_type": "product",
+  "label": "cal.com product",
+  "domain": "cal.com",
+  "type": "baseline",
+  "final_url": "https://cal.com/",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Product pages: baseline of 7900 URLs from 9 sitemap file(s). Future runs will report changes against this snapshot.",
+  "details": {
+   "title": null,
+   "sections": 0,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": 7900,
+   "sitemap_files": [
+    "https://cal.com/sitemap.xml",
+    "https://cal.com/discover/sitemap.xml",
+    "https://cal.com/sitemap_en.xml",
+    "https://cal.com/sitemap_de.xml",
+    "https://cal.com/sitemap_fr.xml",
+    "https://cal.com/sitemap_nl.xml",
+    "https://cal.com/sitemap_pt.xml",
+    "https://cal.com/sitemap_es.xml",
+    "https://cal.com/sitemap_it.xml"
+   ],
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": []
+  },
+  "previous_checked_at": null
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-domains",
+  "checked_at": "2026-10-18T02:20:09.301Z",
+  "url": "https://buffer.com/",
+  "page_type": "product",
+  "label": "buffer.com product",
+  "domain": "buffer.com",
+  "type": "baseline",
+  "final_url": "https://buffer.com/",
+  "severity": null,
+  "change_kind": "baseline",
+  "summary": "Product pages: baseline of 3365 URLs from 10 sitemap file(s). Future runs will report changes against this snapshot.",
+  "details": {
+   "title": null,
+   "sections": 0,
+   "plans": null,
+   "jobs_count": null,
+   "ats": null,
+   "entries": null,
+   "sitemap_urls_count": 3365,
+   "sitemap_files": [
+    "https://buffer.com/sitemap.xml",
+    "https://buffer.com/es/sitemap.xml",
+    "https://buffer.com/fr/sitemap.xml",
+    "https://buffer.com/de/sitemap.xml",
+    "https://buffer.com/it/sitemap.xml",
+    "https://buffer.com/nl/sitemap.xml",
+    "https://buffer.com/pt/sitemap.xml",
+    "https://buffer.com/resources/sitemap.xml",
+    "https://buffer.com/resources/sitemap-posts.xml",
+    "https://buffer.com/resources/sitemap-authors.xml"
+   ],
+   "keyword_counts": {},
+   "rendered": false,
+   "notes": [
+    "stopped after 10 sitemap files (maxSitemapFiles); removed pages are not reported for this run"
+   ]
+  },
+  "previous_checked_at": null
+ }
+]

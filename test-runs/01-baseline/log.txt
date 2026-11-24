@@ -1,0 +1,29 @@
+2026-10-18T02:03:04.585Z ACTOR: Pulling container image of build brwVBpsCN7SPqzea1 from registry.
+2026-10-18T02:03:22.987Z ACTOR: Creating container.
+2026-10-18T02:03:23.063Z ACTOR: Starting container.
+2026-10-18T02:03:23.065Z ACTOR: Running under "LIMITED_PERMISSIONS".
+2026-10-18T02:03:23.136Z Running on architecture: x86_64
+2026-10-18T02:03:23.137Z Will run command: xvfb-run -a -s "-ac -screen 0 1920x1080x24+32 -nolisten tcp" sh -c exec node --max-old-space-size=$(( ${ACTOR_MEMORY_MBYTES:-256} * 6 / 10 )) dist/main.js
+2026-10-18T02:03:23.651Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}
+2026-10-18T02:03:27.973Z INFO  pricing https://tailscale.com/pricing: baseline saved
+2026-10-18T02:03:27.977Z INFO  pricing https://basecamp.com/pricing: baseline saved
+2026-10-18T02:03:28.114Z INFO  pricing https://zapier.com/pricing: baseline saved
+2026-10-18T02:03:28.174Z INFO  pricing https://linear.app/pricing: baseline saved
+2026-10-18T02:03:28.235Z INFO  terms https://tailscale.com/terms: baseline saved
+2026-10-18T02:03:28.507Z INFO  terms https://linear.app/terms: baseline saved
+2026-10-18T02:03:29.678Z INFO  careers https://tailscale.com/careers: baseline saved
+2026-10-18T02:03:29.778Z INFO  terms https://basecamp.com/about/policies/terms: baseline saved
+2026-10-18T02:03:30.881Z INFO  privacy https://linear.app/privacy: baseline saved
+2026-10-18T02:03:30.965Z INFO  pricing https://about.gitlab.com/pricing/: baseline saved
+2026-10-18T02:03:31.227Z INFO  product https://tailscale.com/: baseline saved
+2026-10-18T02:03:32.032Z INFO  changelog https://linear.app/changelog: baseline saved
+2026-10-18T02:03:33.046Z INFO  pricing https://github.com/pricing: baseline saved
+2026-10-18T02:03:33.183Z INFO  pricing https://www.notion.com/pricing: baseline saved
+2026-10-18T02:03:36.097Z INFO  careers https://jobs.ashbyhq.com/linear: baseline saved
+2026-10-18T02:03:37.691Z INFO  terms https://slack.com/terms-of-service: baseline saved
+2026-10-18T02:03:43.292Z WARN  https://www.amazon.com/gp/cart/view.html: ROBOTS_DISALLOWED: robots.txt on www.amazon.com disallows /gp/cart/view.html
+2026-10-18T02:03:43.393Z INFO  terms https://github.com/site/terms: baseline saved
+2026-10-18T02:05:52.195Z INFO  careers https://www.figma.com/careers/: baseline saved
+2026-10-18T02:05:52.392Z INFO  changelog https://posthog.com/changelog: baseline saved
+2026-10-18T02:05:53.404Z INFO  19 page(s) checked: 19 baseline(s), 0 change(s) (0 high, 0 medium, 0 low), 1 skipped, 0 error(s).
+2026-10-18T02:05:53.406Z INFO  [Status message]: 19 page(s) checked: 19 baseline(s), 0 change(s) (0 high, 0 medium, 0 low), 1 skipped, 0 error(s).

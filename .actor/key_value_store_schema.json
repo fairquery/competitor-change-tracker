@@ -1,0 +1,12 @@
+{
+    "actorKeyValueStoreSchemaVersion": 1,
+    "title": "Run summary",
+    "collections": {
+        "output": {
+            "title": "Run summary",
+            "description": "Pages checked, changes by severity, skipped/errors, events charged, webhook status and per-page status. Digest runs also include digests, digest_calls, since (previous successful digest time for this watchlist, or null), changes_count, changed and is_baseline. digest_calls.jobs is skipped with code JOBS_SIGNAL_RETIRED and actor_id null. warnings is set when digest mode is given digestJobs true. is_baseline true is the first digest, not a quiet period. The since time is stored in your named state store under watchlistName.",
+            "key": "OUTPUT",
+            "contentTypes": ["application/json"]
+        }
+    }
+}

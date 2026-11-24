@@ -1,0 +1,36 @@
+2026-10-18T02:19:51.251Z ACTOR: Pulling container image of build 0gV8jVG6sPsGKeQpO from registry.
+2026-10-18T02:20:08.397Z ACTOR: Creating container.
+2026-10-18T02:20:08.489Z ACTOR: Starting container.
+2026-10-18T02:20:08.491Z ACTOR: Running under "LIMITED_PERMISSIONS".
+2026-10-18T02:20:08.590Z Running on architecture: x86_64
+2026-10-18T02:20:08.595Z Will run command: xvfb-run -a -s "-ac -screen 0 1920x1080x24+32 -nolisten tcp" sh -c exec node --max-old-space-size=$(( ${ACTOR_MEMORY_MBYTES:-256} * 6 / 10 )) dist/main.js
+2026-10-18T02:20:09.296Z INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.25.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v22.23.3"}
+2026-10-18T02:20:09.582Z INFO  Discovering pricing, terms, privacy, careers, changelog, product pages for cal.com
+2026-10-18T02:20:11.815Z INFO  Discovering pricing, terms, privacy, careers, changelog, product pages for posthog.com
+2026-10-18T02:20:15.194Z INFO  Discovering pricing, terms, privacy, careers, changelog, product pages for buffer.com
+2026-10-18T02:20:17.141Z INFO  Discovering pricing, terms, privacy, careers, changelog, product pages for netlify.com
+2026-10-18T02:20:40.455Z INFO  pricing https://www.netlify.com/pricing/: baseline saved
+2026-10-18T02:21:20.666Z INFO  pricing https://buffer.com/pricing?cta=bufferSite-globalNav-pricing-pricing-1: baseline saved
+2026-10-18T02:21:22.160Z INFO  pricing https://cal.com/pricing: baseline saved
+2026-10-18T02:21:22.263Z INFO  pricing https://posthog.com/pricing: baseline saved
+2026-10-18T02:21:22.356Z INFO  privacy https://www.netlify.com/privacy/: baseline saved
+2026-10-18T02:21:31.454Z INFO  careers https://www.netlify.com/careers/: baseline saved
+2026-10-18T02:21:50.861Z INFO  terms https://cal.com/terms: baseline saved
+2026-10-18T02:21:50.974Z INFO  terms https://buffer.com/legal: baseline saved
+2026-10-18T02:21:51.855Z INFO  terms https://posthog.com/terms: baseline saved
+2026-10-18T02:21:54.054Z INFO  changelog https://www.netlify.com/changelog/: baseline saved
+2026-10-18T02:22:01.755Z INFO  privacy https://buffer.com/legal: baseline saved
+2026-10-18T02:22:10.286Z INFO  privacy https://cal.com/privacy: baseline saved
+2026-10-18T02:22:21.756Z INFO  product https://netlify.com/: baseline saved
+2026-10-18T02:22:22.054Z INFO  privacy https://posthog.com/privacy: baseline saved
+2026-10-18T02:22:33.070Z INFO  careers https://buffer.com/journey: baseline saved
+2026-10-18T02:22:48.360Z INFO  careers https://cal.com/jobs: baseline saved
+2026-10-18T02:22:48.361Z INFO  careers https://posthog.com/careers: baseline saved
+2026-10-18T02:22:50.254Z INFO  changelog https://buffer.com/changelog: baseline saved
+2026-10-18T02:22:52.555Z INFO  changelog https://cal.com/subscribe: baseline saved
+2026-10-18T02:23:39.654Z INFO  changelog https://posthog.com/changelog: baseline saved
+2026-10-18T02:23:47.377Z INFO  product https://posthog.com/: baseline saved
+2026-10-18T02:23:53.154Z INFO  product https://buffer.com/: baseline saved
+2026-10-18T02:23:53.216Z INFO  product https://cal.com/: baseline saved
+2026-10-18T02:23:53.955Z INFO  23 page(s) checked: 23 baseline(s), 0 change(s) (0 high, 0 medium, 0 low), 1 skipped, 0 error(s).
+2026-10-18T02:23:53.956Z INFO  [Status message]: 23 page(s) checked: 23 baseline(s), 0 change(s) (0 high, 0 medium, 0 low), 1 skipped, 0 error(s).

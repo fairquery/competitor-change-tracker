@@ -1,0 +1,223 @@
+{
+    "title": "Competitor Change Tracker input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "pages": {
+            "title": "Pages to watch",
+            "type": "array",
+            "description": "Competitor pages to track. Each item: {\"url\": \"https://example.com/pricing\", \"type\": \"pricing\", \"label\": \"Acme pricing\", \"cssSelector\": \"#pricing\"}. type is optional (auto-detected from the URL): pricing, terms, privacy, careers, changelog, blog, product (a sitemap URL or a site root = new/removed pages via sitemap.xml) or generic. cssSelector is optional and limits the comparison to that DOM region. A plain URL string also works.",
+            "editor": "json",
+            "prefill": [
+                {
+                    "url": "https://basecamp.com/pricing",
+                    "type": "pricing",
+                    "label": "Basecamp pricing"
+                },
+                {
+                    "url": "https://linear.app/pricing",
+                    "type": "pricing",
+                    "label": "Linear pricing"
+                },
+                {
+                    "url": "https://github.com/site/terms",
+                    "type": "terms",
+                    "label": "GitHub terms"
+                },
+                {
+                    "url": "https://jobs.ashbyhq.com/linear",
+                    "type": "careers",
+                    "label": "Linear careers"
+                }
+            ]
+        },
+        "urls": {
+            "title": "URLs (page type auto-detected)",
+            "type": "array",
+            "description": "Optional plain list of URLs. The page type is guessed from the path (/pricing, /terms, /privacy, /careers, /changelog, /blog, sitemap.xml); anything else is tracked as a generic page.",
+            "editor": "stringList"
+        },
+        "domains": {
+            "title": "Competitor domains (auto-discover pages)",
+            "type": "array",
+            "description": "Optional. For each domain (e.g. acme.com) the Actor reads the homepage links once (robots.txt respected) to find the page types below, falling back to at most 2 common paths per type. Results are cached for 30 days in your state store. Discovery requests are free.",
+            "editor": "stringList"
+        },
+        "pageTypes": {
+            "title": "Page types to discover for domains",
+            "type": "array",
+            "description": "Which pages to look for on each domain. product = new or removed pages in the site's sitemap.xml.",
+            "editor": "select",
+            "items": {
+                "type": "string",
+                "enum": ["pricing", "product", "terms", "privacy", "careers", "changelog", "blog"],
+                "enumTitles": [
+                    "Pricing",
+                    "Product pages (sitemap diff)",
+                    "Terms of service",
+                    "Privacy policy",
+                    "Careers / jobs",
+                    "Changelog / release notes",
+                    "Blog / news"
+                ]
+            },
+            "default": ["pricing", "terms", "privacy", "careers", "changelog", "product"]
+        },
+        "mode": {
+            "title": "Run mode",
+            "type": "string",
+            "description": "watch writes one dataset row per page change. digest still checks pages, then writes one row per competitor domain combining pricing, terms and changelog changes with technologies added or removed (Website Tech, SEO and AI Readiness). Each digest row includes since (ISO time of the previous successful digest for this watchlist, or null on the first run), changes_count, changed and is_baseline. The first digest is a baseline, not a quiet result. In digest mode a webhook receives one payload per domain.",
+            "editor": "select",
+            "enum": ["watch", "digest"],
+            "enumTitles": ["Watch pages (one row per change)", "Weekly competitor digest (one row per domain)"],
+            "default": "watch"
+        },
+        "digestTech": {
+            "title": "Digest: tech-stack changes",
+            "type": "boolean",
+            "description": "In digest mode, call fairquery/website-tech-seo-ai-readiness and report technologies added or removed since the last digest for this watchlist. That Actor bills $1.50 per 1,000 sites on the free plan. Ignored in watch mode.",
+            "default": true
+        },
+        "cssSelector": {
+            "title": "CSS selector for page watches",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Optional CSS selector applied to every page that does not set its own cssSelector. Only that DOM region is compared, for example \"#pricing\" or \"main .plans\". A per-page cssSelector overrides this. Invalid selectors are reported and those pages are not checked. Maximum 300 characters."
+        },
+        "watchlistName": {
+            "title": "Watchlist name",
+            "type": "string",
+            "description": "Name of this watchlist. Page baselines and, in digest mode, the previous successful digest time are stored under this name in your Apify key-value store (stateStoreName). Use the same name on every run. The store stays in your account until you delete it. This Actor does not send that state to Fairquery.",
+            "default": "default",
+            "editor": "textfield"
+        },
+        "maxPages": {
+            "title": "Max pages per run",
+            "type": "integer",
+            "description": "Safety cap on pages checked in one run (explicit + discovered). Extra pages are listed as skipped, not charged.",
+            "default": 50,
+            "minimum": 1,
+            "maximum": 200
+        },
+        "minSeverity": {
+            "title": "Minimum severity to output",
+            "type": "string",
+            "description": "Only changes at or above this level are written to the dataset (and charged). high = price changes, plans added/removed, sensitive legal edits; medium = notable text, product-page, hiring or keyword changes; low = minor edits, routine new posts.",
+            "editor": "select",
+            "enum": ["low", "medium", "high"],
+            "enumTitles": ["Low and up (everything meaningful)", "Medium and up", "High only"],
+            "default": "low"
+        },
+        "careersKeywords": {
+            "title": "Careers keywords",
+            "type": "array",
+            "description": "Words to count in job titles (e.g. 'machine learning', 'Kubernetes', 'Germany'). Count changes are reported; new roles matching a keyword raise severity to medium.",
+            "editor": "stringList"
+        },
+        "watchKeywords": {
+            "title": "Keywords to watch on every page",
+            "type": "array",
+            "description": "Alert (medium) when one of these words appears on or disappears from a page, e.g. 'free trial', 'SOC 2', 'AI', 'per seat'. Whole-word, case-insensitive.",
+            "editor": "stringList"
+        },
+        "ignorePatterns": {
+            "title": "Extra noise patterns to ignore (regex)",
+            "type": "array",
+            "description": "Optional regular expressions (max 20, 200 chars each) removed from text before comparing, for page-specific noise such as rotating promo banners. Timestamps, dates, relative times, tokens, cookie banners, navigation and footers are already ignored.",
+            "editor": "stringList"
+        },
+        "minChangeChars": {
+            "title": "Minimum changed characters (non-legal pages)",
+            "type": "integer",
+            "description": "Text edits smaller than this (after noise filtering) are not reported on generic, product, careers and blog pages; small edits accumulate against the old snapshot until they cross it. Legal pages use 10, pricing uses structured price comparison.",
+            "default": 20,
+            "minimum": 0,
+            "maximum": 10000
+        },
+        "includeDiff": {
+            "title": "Include changed sentences",
+            "type": "boolean",
+            "description": "Add the added/removed sentences per changed section to each change row.",
+            "default": true
+        },
+        "webhookUrl": {
+            "title": "Alert webhook URL (optional)",
+            "type": "string",
+            "description": "Public HTTPS URL that receives one POST per run when there are changes at or above the webhook severity (Slack/Discord incoming webhooks, n8n, Make, Zapier, your API). Stored as a secret.",
+            "editor": "textfield",
+            "isSecret": true
+        },
+        "webhookFormat": {
+            "title": "Webhook format",
+            "type": "string",
+            "description": "json = {watchlist, count, text, changes[]}; slack = {text}; discord = {content}.",
+            "editor": "select",
+            "enum": ["json", "slack", "discord"],
+            "default": "json"
+        },
+        "webhookMinSeverity": {
+            "title": "Webhook minimum severity",
+            "type": "string",
+            "description": "Only changes at or above this level are sent to the webhook.",
+            "editor": "select",
+            "enum": ["low", "medium", "high"],
+            "default": "medium"
+        },
+        "renderJs": {
+            "title": "Headless browser fallback",
+            "type": "string",
+            "description": "never = plain HTTP only (cheapest). auto = render with a headless browser only when plain HTML has no readable prices (pricing pages) or almost no text (JavaScript-only pages); robots.txt still applies. always = render every page. Browser rendering needs a run with at least 1024 MB memory and is charged per rendered page.",
+            "editor": "select",
+            "enum": ["never", "auto", "always"],
+            "default": "never"
+        },
+        "confirmChanges": {
+            "title": "Confirm changes with a second read",
+            "type": "boolean",
+            "description": "When a change is found on a plain HTML page, read the page once more (after the polite delay) and report only changes seen on both reads. Filters out A/B tests and rotating page variants. The extra read is not charged.",
+            "default": true
+        },
+        "sitemapInclude": {
+            "title": "Sitemap URL include patterns (regex)",
+            "type": "array",
+            "description": "For product (sitemap) tracking: only URLs matching one of these patterns are tracked, e.g. '/features/', '/integrations/'. Empty = all URLs.",
+            "editor": "stringList"
+        },
+        "sitemapExclude": {
+            "title": "Sitemap URL exclude patterns (regex)",
+            "type": "array",
+            "description": "For product (sitemap) tracking: URLs matching these are ignored, e.g. '/blog/', '/de/'.",
+            "editor": "stringList"
+        },
+        "maxSitemapFiles": {
+            "title": "Max sitemap files per site",
+            "type": "integer",
+            "description": "Sitemap indexes can list many files; each file read counts as one page check. If the cap is hit, removed pages are not reported for that run.",
+            "default": 10,
+            "minimum": 1,
+            "maximum": 50
+        },
+        "requestDelaySecs": {
+            "title": "Delay between requests to one site (seconds)",
+            "type": "number",
+            "description": "Politeness delay between requests to the same host (minimum 1 s). A longer robots.txt Crawl-delay always wins; sites asking for more than 30 s are skipped.",
+            "default": 1.5,
+            "minimum": 1,
+            "maximum": 30
+        },
+        "stateStoreName": {
+            "title": "State store name",
+            "type": "string",
+            "description": "Named key-value store in your Apify account that keeps snapshots between runs (one store can hold many watchlists). Digest mode also stores the last successful digest time and the detected-technology list for each watchlistName in this store. Nothing is copied to Fairquery.",
+            "default": "fairquery-competitor-tracker",
+            "editor": "textfield"
+        },
+        "resetBaseline": {
+            "title": "Reset baseline",
+            "type": "boolean",
+            "description": "Ignore stored snapshots and save a fresh baseline for every page in this run (no changes are reported).",
+            "default": false
+        }
+    },
+    "required": []
+}

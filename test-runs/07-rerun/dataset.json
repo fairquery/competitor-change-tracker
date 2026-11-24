@@ -1,0 +1,79 @@
+[
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-main",
+  "checked_at": "2026-10-18T02:20:09.768Z",
+  "url": "https://www.notion.com/pricing",
+  "page_type": "pricing",
+  "label": null,
+  "domain": "www.notion.com",
+  "type": "change",
+  "final_url": "https://www.notion.com/pricing",
+  "severity": "medium",
+  "change_kind": "pricing_text_changed",
+  "summary": "Pricing page: 4 sections changed: \"Plus\" renamed to \"Plus*\", \"Enterprise\" renamed to \"Enterprise*\", \"WorkersBeta\" (modified: +1/\u22120 sentences), \"Plans and features\" (modified: +3/\u22122 sentences). Removed: \u201cPlus$10 per seat/monthGet started\u201d Added: \u201c* Plans may not be available for every workspace.\u201d",
+  "details": {
+   "sections_changed": 4,
+   "changed_chars": 224,
+   "sections": [
+    {
+     "heading": "Plus*",
+     "change": "renamed",
+     "previous_heading": "Plus",
+     "added": [],
+     "removed": [],
+     "more_added": 0,
+     "more_removed": 0
+    },
+    {
+     "heading": "Enterprise*",
+     "change": "renamed",
+     "previous_heading": "Enterprise",
+     "added": [],
+     "removed": [],
+     "more_added": 0,
+     "more_removed": 0
+    },
+    {
+     "heading": "WorkersBeta",
+     "change": "modified",
+     "added": [
+      "* Plans may not be available for every workspace."
+     ],
+     "removed": [],
+     "more_added": 0,
+     "more_removed": 0
+    },
+    {
+     "heading": "Plans and features",
+     "change": "modified",
+     "added": [
+      "Plus*$10 per seat/monthGet started",
+      "Enterprise*Contact us\u2192",
+      "* Plans may not be available for every workspace."
+     ],
+     "removed": [
+      "Plus$10 per seat/monthGet started",
+      "EnterpriseContact us\u2192"
+     ],
+     "more_added": 0,
+     "more_removed": 0
+    }
+   ]
+  },
+  "previous_checked_at": "2026-10-18T02:17:36.648Z"
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-main",
+  "checked_at": "2026-10-18T02:20:09.768Z",
+  "url": "https://www.amazon.com/gp/cart/view.html",
+  "page_type": "generic",
+  "label": null,
+  "domain": "www.amazon.com",
+  "type": "skipped",
+  "code": "ROBOTS_DISALLOWED",
+  "message": "robots.txt on www.amazon.com disallows /gp/cart/view.html",
+  "retryable": false
+ }
+]

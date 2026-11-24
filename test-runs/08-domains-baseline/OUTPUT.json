@@ -1,0 +1,169 @@
+{
+ "schema_version": "1.0.0",
+ "watchlist": "fq-test-domains",
+ "checked_at": "2026-10-18T02:20:09.301Z",
+ "status": "ok",
+ "first_run_for_watchlist": true,
+ "pages_total": 23,
+ "pages_checked": 23,
+ "baselines": 23,
+ "changes": 0,
+ "changes_by_severity": {
+  "low": 0,
+  "medium": 0,
+  "high": 0
+ },
+ "unchanged": 0,
+ "skipped": 1,
+ "errors": 0,
+ "requests": 58,
+ "bytes_downloaded": 28164060,
+ "browser_renders": 0,
+ "events": {
+  "page-checked": 43
+ },
+ "event_charges_usd_at_list_price": 0.02107,
+ "webhook": null,
+ "state_store": "fairquery-competitor-tracker",
+ "duration_secs": 224.6,
+ "pages": [
+  {
+   "url": "https://www.netlify.com/pricing/",
+   "type": "pricing",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://buffer.com/pricing?cta=bufferSite-globalNav-pricing-pricing-1",
+   "type": "pricing",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://cal.com/pricing",
+   "type": "pricing",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://posthog.com/pricing",
+   "type": "pricing",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://www.netlify.com/privacy/",
+   "type": "privacy",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://buffer.com/legal",
+   "type": "terms",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://www.netlify.com/careers/",
+   "type": "careers",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://cal.com/terms",
+   "type": "terms",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://posthog.com/terms",
+   "type": "terms",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://www.netlify.com/changelog/",
+   "type": "changelog",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://buffer.com/legal",
+   "type": "privacy",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://cal.com/privacy",
+   "type": "privacy",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://netlify.com/",
+   "type": "product",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://posthog.com/privacy",
+   "type": "privacy",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://buffer.com/journey",
+   "type": "careers",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://cal.com/jobs",
+   "type": "careers",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://posthog.com/careers",
+   "type": "careers",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://buffer.com/changelog",
+   "type": "changelog",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://cal.com/subscribe",
+   "type": "changelog",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://posthog.com/changelog",
+   "type": "changelog",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://posthog.com/",
+   "type": "product",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://cal.com/",
+   "type": "product",
+   "status": "baseline",
+   "changes": 0
+  },
+  {
+   "url": "https://buffer.com/",
+   "type": "product",
+   "status": "baseline",
+   "changes": 0
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+[
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-main",
+  "checked_at": "2026-10-18T02:33:34.810Z",
+  "url": "https://www.notion.com/pricing",
+  "page_type": "pricing",
+  "label": null,
+  "domain": "www.notion.com",
+  "type": "change",
+  "final_url": "https://www.notion.com/pricing",
+  "severity": "low",
+  "change_kind": "reverted_to_seen_version",
+  "summary": "Page switched back to a version already seen on 2026-10-18 (common with A/B tests or regional variants, or a rolled-back edit). Difference from the last check: Pricing page: 4 sections changed: \"Plus*\" renamed to \"Plus\", \"Enterprise*\" renamed to \"Enterprise\", \"WorkersBeta\" (modified: +0/\u22121 sentences), \"Plans and features\" (modified: +2/\u22123 sentences). Removed: \u201c* Plans may not be available for eve\u2026",
+  "details": {
+   "seen_at": "2026-10-18T02:17:36.648Z",
+   "changes": [
+    {
+     "kind": "pricing_text_changed",
+     "severity": "medium",
+     "summary": "Pricing page: 4 sections changed: \"Plus*\" renamed to \"Plus\", \"Enterprise*\" renamed to \"Enterprise\", \"WorkersBeta\" (modified: +0/\u22121 sentences), \"Plans and features\" (modified: +2/\u22123 sentences). Removed: \u201c* Plans may not be available for every workspace.\u201d Added: \u201cPlus$10 per seat/monthGet started\u201d",
+     "details": {
+      "sections_changed": 4,
+      "changed_chars": 222,
+      "sections": [
+       {
+        "heading": "Plus",
+        "change": "renamed",
+        "previous_heading": "Plus*",
+        "added": [],
+        "removed": [],
+        "more_added": 0,
+        "more_removed": 0
+       },
+       {
+        "heading": "Enterprise",
+        "change": "renamed",
+        "previous_heading": "Enterprise*",
+        "added": [],
+        "removed": [],
+        "more_added": 0,
+        "more_removed": 0
+       },
+       {
+        "heading": "WorkersBeta",
+        "change": "modified",
+        "added": [],
+        "removed": [
+         "* Plans may not be available for every workspace."
+        ],
+        "more_added": 0,
+        "more_removed": 0
+       },
+       {
+        "heading": "Plans and features",
+        "change": "modified",
+        "added": [
+         "Plus$10 per seat/monthGet started",
+         "EnterpriseContact us\u2192"
+        ],
+        "removed": [
+         "Plus*$10 per seat/monthGet started",
+         "Enterprise*Contact us\u2192",
+         "* Plans may not be available for every workspace."
+        ],
+        "more_added": 0,
+        "more_removed": 0
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "previous_checked_at": "2026-10-18T02:20:09.768Z"
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-main",
+  "checked_at": "2026-10-18T02:33:34.810Z",
+  "url": "https://www.amazon.com/gp/cart/view.html",
+  "page_type": "generic",
+  "label": null,
+  "domain": "www.amazon.com",
+  "type": "skipped",
+  "code": "ROBOTS_DISALLOWED",
+  "message": "robots.txt on www.amazon.com disallows /gp/cart/view.html",
+  "retryable": false
+ },
+ {
+  "schema_version": "1.0.0",
+  "watchlist": "fq-test-main",
+  "checked_at": "2026-10-18T02:33:34.810Z",
+  "url": "https://slack.com/pricing",
+  "page_type": "pricing",
+  "label": null,
+  "domain": "slack.com",
+  "type": "change",
+  "final_url": "https://slack.com/pricing",
+  "severity": "high",
+  "change_kind": "plan_removed",
+  "summary": "Plan \"Enterprise+\" removed (was $45/month per user). Also on the page: Pricing page: 1 section changed: \"Choose a paid plan built for businesses.\" (modified: +1/\u22122 sentences). Removed: \u201cper user / month, when paying annually\u201d Added: \u201cContact sales for pricing\u201d",
+  "details": {
+   "plan": "Enterprise+",
+   "previous_prices": [
+    {
+     "amount": 45,
+     "currency": "USD",
+     "period": "month",
+     "billing": null,
+     "unit": "user",
+     "raw": "$45"
+    }
+   ],
+   "related_text_change": {
+    "summary": "Pricing page: 1 section changed: \"Choose a paid plan built for businesses.\" (modified: +1/\u22122 sentences). Removed: \u201cper user / month, when paying annually\u201d Added: \u201cContact sales for pricing\u201d",
+    "sections_changed": 1,
+    "changed_chars": 69,
+    "sections": [
+     {
+      "heading": "Choose a paid plan built for businesses.",
+      "change": "modified",
+      "added": [
+       "Contact sales for pricing"
+      ],
+      "removed": [
+       "$45USD",
+       "per user / month, when paying annually"
+      ],
+      "more_added": 0,
+      "more_removed": 0
+     }
+    ]
+   }
+  },
+  "previous_checked_at": "2026-10-18T02:11:36.197Z"
+ }
+]
